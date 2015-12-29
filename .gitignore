@@ -1,3 +1,9 @@
 node_modules
 dist
 *.DS_Store
+css/styles.css
+css/styles.css.map
+css/styles.min.css
+js/app.js
+js/app.js.map
+js/app.min.js
