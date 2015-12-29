@@ -6,6 +6,7 @@ var gulp = require('gulp'),
 	nano = require('gulp-cssnano'),
 	rename = require('gulp-rename'),
 	maps = require('gulp-sourcemaps'),
+	size = require('gulp-size'),
 	del = require('del');
 
 gulp.task('concatScripts', function(){
@@ -20,9 +21,11 @@ gulp.task('concatScripts', function(){
 
 gulp.task("minifyScripts", ['concatScripts'], function(){
 	return gulp.src("js/app.js")
+	.pipe(size({title:'js/app.js'}))
 	.pipe(uglify())
 	.pipe(rename("app.min.js"))
-	.pipe(gulp.dest('js'));
+	.pipe(gulp.dest('js'))
+	.pipe(size({title:'js/app.min.js'}));
 });
 
 gulp.task("concatCSS", function(){
@@ -39,18 +42,20 @@ gulp.task("concatCSS", function(){
 
 gulp.task("minifyCSS", ['concatCSS'], function(){
 	return gulp.src("css/styles.css")
+	.pipe(size({title:'css/styles.css'}))
 	.pipe(nano())
 	.pipe(rename("styles.min.css"))
-	.pipe(gulp.dest('css'));
+	.pipe(gulp.dest('css'))
+	.pipe(size({title:'css/styles.min.css'}));
 });
 
 gulp.task('watchFiles', function(){
 	gulp.watch('css/main.css',['minifyCSS']);
-	gulp.watch('js/main.js', ['minifyScripts']);
+	gulp.watch('js/custom.js', ['minifyScripts']);
 });
 
 gulp.task('clean', function(){
-	del(['dist', 'css/application.css*','js/app*.js*']);
+	del(['dist', 'css/styles*.css*', 'js/app*.js*']);
 });
 
 gulp.task("build", ['minifyScripts', 'minifyCSS'], function(){
