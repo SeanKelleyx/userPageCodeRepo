@@ -1,0 +1,39 @@
+.header-screen {
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(-180deg, rgba(190,144,84,0.66) 0%, rgba(138,87,42,0.95) 100%);
+}
+
+section#tools{
+	padding: 100px 0 0 0;
+}
+
+.dark {
+	border-color: #333;
+}
+
+.primary {
+	background: #D18E18;
+}
+
+.primary-text {
+	color: #D18E18;
+}
+
+.primary-text-muted {
+	color: #D18E18;
+	opacity: 0.7;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+.container p {
+	font-size: 24px;
+}
+
+.row-no-margin {
+	margin-right: 0px;
+  	margin-left: 0px;
+}
