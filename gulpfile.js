@@ -44,10 +44,23 @@ gulp.task("minifyCSS", ['concatCSS'], function(){
 	.pipe(gulp.dest('css'));
 });
 
+gulp.task('watchFiles', function(){
+	gulp.watch('css/main.css',['minifyCSS']);
+	gulp.watch('js/main.js', ['minifyScripts']);
+});
+
 gulp.task('clean', function(){
 	del(['dist', 'css/application.css*','js/app*.js*']);
 });
 
-gulp.task('default', function(){
-	console.log("default task");
+gulp.task("build", ['minifyScripts', 'minifyCSS'], function(){
+	return gulp.src(["css/styles.min.css", "js/app.min.js", 
+		'index.html', "img/**", "fonts/**", "font-awesome/fonts/**"], {base: "./"})
+	.pipe(gulp.dest('dist'));
+});
+
+gulp.task("serve", ['watchFiles']);
+
+gulp.task("default", ['clean'], function(){
+	gulp.start('build');
 });
