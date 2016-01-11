@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 gulp.task('concatScripts', function(){
 	return gulp.src(["js/jquery.js","js/bootstrap.js",
 		"js/jquery.easing.min.js","js/jquery.fittext.js",
-		"js/wow.min.js","js/creative.js","js/custom.js"])
+		"js/wow.min.js","js/creative.js","js/custom.js", "js/analytics.js"])
 	.pipe(maps.init())
     .pipe(concat('app.js'))
     .pipe(maps.write('./'))
