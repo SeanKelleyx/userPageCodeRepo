@@ -1,18 +1,20 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var header = require('gulp-header');
-var cleanCSS = require('gulp-clean-css');
-var rename = require("gulp-rename");
-var uglify = require('gulp-uglify');
-var pkg = require('./package.json');
+var gulp = require('gulp'),
+    less = require('gulp-less'),
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync').create(),
+    header = require('gulp-header'),
+    cleanCSS = require('gulp-clean-css'),
+    rename = require("gulp-rename"),
+    uglify = require('gulp-uglify'),
+    concat = require('gulp-concat'),
+    maps = require('gulp-sourcemaps'),
+    pkg = require('./package.json');
 
 // Set the banner content
 var banner = ['/*!\n',
     ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
     ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-    ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n',
+    ' * Licensed under <%= pkg.license %>\n',
     ' */\n',
     ''
 ].join('');
