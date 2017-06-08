@@ -118,6 +118,8 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.json'
         ])
         .pipe(gulp.dest('vendor/font-awesome'));
+    gulp.src(['node_modules/font-awesome/fonts/*'])
+    	.pipe(gulp.dest('fonts'));
 })
 
 // Run everything
@@ -133,7 +135,7 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html'], function() {
+gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html', 'copy'], function() {
     gulp.watch('less/*.less', ['less']);
     gulp.watch('css/*.css', ['minify-css']);
     gulp.watch('js/*.js', ['minify-js']);
