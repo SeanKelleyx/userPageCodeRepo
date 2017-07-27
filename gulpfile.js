@@ -68,7 +68,8 @@ gulp.task('concat-js', function(){
 		'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
 		'js/jqBootstrapValidation.js',
 		'js/contact_me.js',
-		'js/agency.js'])
+		'js/agency.js',
+        'js/sean.js'])
 		.pipe(maps.init())
 		.pipe(concat('main.js'))
 		.pipe(maps.write('./'))
