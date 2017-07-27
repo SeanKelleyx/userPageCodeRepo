@@ -1,9 +1,27 @@
 header {
 	background-attachment: fixed;
 }
+input::placeholder {
+	color: #B0B0B0 !important;
+}
+textarea::placeholder {
+	color: #B0B0B0 !important;
+}
+.img-circle {
+	width: 100%;
+}
 .navbar-custom {
 	background-color: rgba(0,0,0,0.5);
 }
 .text-muted-dark {
 	color: #DCDCDC;
+}
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.portfolio-link > img {
+	width: 100%;
 }
