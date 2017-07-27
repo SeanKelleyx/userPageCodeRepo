@@ -3,6 +3,6 @@ vendor
 index.html
 css/main.*
 js/main.*
-css/agency.*
-js/agency.*
+css/agency*
+js/agency.min*
 fonts
