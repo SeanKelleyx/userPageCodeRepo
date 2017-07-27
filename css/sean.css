@@ -1,3 +1,9 @@
+header {
+	background-attachment: fixed;
+}
 .navbar-custom {
 	background-color: rgba(0,0,0,0.5);
+}
+.text-muted-dark {
+	color: #DCDCDC;
 }
