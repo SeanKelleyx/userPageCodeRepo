@@ -39,7 +39,8 @@ gulp.task('concat-css', ['less'], function(){
 		'https://fonts.googleapis.com/css?family=Kaushan+Script',
 		'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
 		'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700',
-		'css/agency.css'])
+		'css/agency.css',
+        'css/sean.css'])
 		.pipe(maps.init())
 		.pipe(concat('main.css'))
 		.pipe(maps.write('./'))
@@ -79,7 +80,7 @@ gulp.task('concat-js', function(){
 
 // Minify JS
 gulp.task('minify-js', ['concat-js'], function() {
-    return gulp.src('js/agency.js')
+    return gulp.src('js/main.js')
         .pipe(uglify())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(rename({ suffix: '.min' }))
