@@ -11,7 +11,9 @@ var gulp = require('gulp'),
     maps = require('gulp-sourcemaps'),
     pkg = require('./package.json'),
     gutil = require('gulp-util'),
-    critical = require('critical').stream;
+    critical = require('critical').stream,
+    del = require('del'),
+    htmlmin = require('gulp-htmlmin');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -92,6 +94,14 @@ gulp.task('minify-js', ['concat-js'], function() {
         }));
 });
 
+// Minify HTML
+gulp.task('minify-html', ['critical'],function(){
+    return gulp.src('build/index.build.html')
+        .pipe(htmlmin({collapseWhitespace: true, minifyCSS: true, minifyJS: true}))
+        .pipe(rename('index.html'))
+        .pipe(gulp.dest('build'));
+});
+
 // Create html
 gulp.task('dev-html', function(){
 	return gulp.src('index.template')
@@ -104,37 +114,33 @@ gulp.task('dev-html', function(){
         }));
 });
 
-//critical css
-gulp.task('critical', function () {
-    return gulp.src('index.html')
-        .pipe(critical({base: 'dist/', inline: true, css: ['css/main.min.css']}))
-        .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
-        .pipe(gulp.dest('dist'));
+gulp.task('html', ['copy-files-build'], function(){
+    return gulp.src('index.template')
+        .pipe(replace('{{STYLE}}', 'css/main.min.css'))
+        .pipe(replace('{{SCRIPT}}', 'js/main.min.js'))
+        .pipe(rename('index.build.html'))
+        .pipe(gulp.dest('./build'));
 });
 
-// Copy vendor libraries from /node_modules into /vendor
-gulp.task('copy', function() {
-    gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
-        .pipe(gulp.dest('vendor/bootstrap'))
+gulp.task('del', function(){
+    del(['dist', 'build']);
+});
 
-    gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-        .pipe(gulp.dest('vendor/jquery'))
+gulp.task('copy-files-build', ['del', 'less', 'minify-css', 'minify-js'], function(){
+    return gulp.src(["css/main.min.css", "js/main.min.js", "img/**"], {base: "./"})
+    .pipe(gulp.dest('build'));
+});
 
-    gulp.src([
-            'node_modules/font-awesome/**',
-            '!node_modules/font-awesome/**/*.map',
-            '!node_modules/font-awesome/.npmignore',
-            '!node_modules/font-awesome/*.txt',
-            '!node_modules/font-awesome/*.md',
-            '!node_modules/font-awesome/*.json'
-        ])
-        .pipe(gulp.dest('vendor/font-awesome'));
-    gulp.src(['node_modules/font-awesome/fonts/*'])
-    	.pipe(gulp.dest('fonts'));
-})
+//critical css
+gulp.task('critical', ['html'], function () {
+    return gulp.src('build/index.build.html')
+        .pipe(critical({base: 'build/', inline: true, css: ['css/main.min.css']}))
+        .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+        .pipe(gulp.dest('build'));
+});
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['less', 'minify-css', 'minify-js']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
@@ -146,7 +152,8 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html', 'copy'], function() {
+gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html'], function() {
+
     gulp.watch('less/*.less', ['less']);
     gulp.watch('css/*.css', ['minify-css']);
     gulp.watch('js/*.js', ['minify-js']);
@@ -154,4 +161,8 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html', 
     // Reloads the browser whenever HTML or JS files change
     gulp.watch('*.html', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
+});
+
+gulp.task('build', ['minify-html'], function(){
+
 });

@@ -7,3 +7,4 @@ css/agency*
 js/agency.min*
 fonts
 .DS_Store
+build
