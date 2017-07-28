@@ -9,7 +9,9 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
     maps = require('gulp-sourcemaps'),
-    pkg = require('./package.json');
+    pkg = require('./package.json'),
+    gutil = require('gulp-util'),
+    critical = require('critical').stream;
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -65,7 +67,6 @@ gulp.task('minify-css', ['concat-css'], function() {
 gulp.task('concat-js', function(){
 	return gulp.src(['vendor/jquery/jquery.min.js',
 		'vendor/bootstrap/js/bootstrap.min.js',
-		'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
 		'js/jqBootstrapValidation.js',
 		'js/contact_me.js',
 		'js/agency.js',
@@ -101,6 +102,14 @@ gulp.task('dev-html', function(){
 		.pipe(browserSync.reload({
             stream: true
         }));
+});
+
+//critical css
+gulp.task('critical', function () {
+    return gulp.src('index.html')
+        .pipe(critical({base: 'dist/', inline: true, css: ['css/main.min.css']}))
+        .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+        .pipe(gulp.dest('dist'));
 });
 
 // Copy vendor libraries from /node_modules into /vendor
