@@ -136,11 +136,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/acms.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/web-scraper.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">Content Management System</h4>
-                        <p class="text-muted">Backend Development</p>
+                        <h4 class="truncate">Web Scraping and FTP Automation</h4>
+                        <p class="text-muted">Full Stack Development</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -150,53 +150,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/sales-tracking.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/this-site.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">Sales Tracking System</h4>
-                        <p class="text-muted">Full Stack Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/web-scraper.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate">Web Scraping and FTP Automation</h4>
-                        <p class="text-muted">Full Stack Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/wireless-reseller.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate">Wireless Reseller Website</h4>
-                        <p class="text-muted">Full Stack Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/android.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate">Android Tag Manager Configuration</h4>
-                        <p class="text-muted">Mobile Native Development</p>
+                        <h4 class="truncate">This Website</h4>
+                        <p class="text-muted">Web Development</p>
                     </div>
                 </div>
             </div>
@@ -351,7 +309,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">A self-driven, skilled, and extremely reliable Software Engineer seeks position creating cutting edge software. A creative and entrepreneurial individual,  with hands on experience on enterprise level applications, from concept to design, product maintenance and testing.</p>
+                    <p class="large text-muted">Experienced in many facets of software engineering, enterprise level applications, website design and development, web and mobile application development, database design, as well as other aspects of the internet landscape. Passionate about writing clean, efficient software that is secure and meets clients needs. Enjoys taking abstract technical details and requirements and transforming them into attractive and intuitive solutions. <i>Bachelor of Science in Software Development With a concentration in Computer Programming.</i></p>
                 </div>
             </div>
         </div>
@@ -440,7 +398,7 @@
                                 <h2>Report Ordering - Carfax</h2>
                                 <p class="item-intro text-muted">Backend Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/report-ordering.jpg" alt="">
-                                <p>My team at Acuity Insurance owns several of our company's applications, one of which is the Report Ordering system. We order data from several third party providers to determine what a person's insurance rate should be, and for other purposes like easing use of rate quotes on our website. based on many factors. One project that I did on our report ordering system was to integrate ordering data from Carfax. The first thing I did was to create an internal SOAP API for other teams in the company to use to request data. This was a SOAP service API because of a requirement to make this accessible to programs calling from a Mainframe legacy system, which handles SOAP services much easier than REST. I then created a database system to store requests and responses for reporting and accounting purposes, and also to handle response caching.  There was also a requirement to handle asynchronous requests, so I created the necessary integration with the messaging queue for the system to be able to handle requests from the queue. Finally I created the integration with the Carfax REST service to actually order the data, and parse out the data needed by the calling user. Over the last year the system has handled 1,648,636 requests. I was the only developer working on this part of the project, other developers on other teams setup the integration with their systems to call and use the retrieved data (rating system, website for getting vin numbers from a given license plate, etc).</p>
+                                <p>My team at Acuity Insurance owns several of our company's applications, one of which is the Report Ordering system. We order data from several third party providers to determine what a person's insurance rate should be, and for other purposes like easing use on our website. One project that I did on our report ordering system was to integrate ordering data from Carfax. The first thing I did was to create an internal SOAP API for other teams in the company to use to request data. This was a SOAP service API because of a requirement to make this accessible to programs calling from a Mainframe legacy system which handles SOAP services much easier than REST. I then created a database system to store requests and responses for reporting and accounting purposes, and also to handle response caching. There was also a requirement to handle asynchronous requests, so I created the necessary integration with the messaging queue for the system to be able to handle requests. Finally I created the integration with the Carfax REST service to actually order the data, and parse out the data needed by the calling user. Over the last year the system has handled 1,648,636 requests. I was the only developer working on this part of the project, other developers on other teams setup the integration with their systems to call and use the retrieved data (rating system, website for getting vin numbers from a given license plate, etc). <b>Java, XML, SOAP and RESTful Web Services, IBM DB2, IBM Websphere Application Server.</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Acuity Insurance</li>
                                     <li>Category: Backend Development</li>
@@ -468,11 +426,15 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/acms.jpg" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <!-- Project Details Go Here -->
+                                <h2>Web Scraping and Deployment Automation</h2>
+                                <p class="item-intro text-muted">Full Stack Development</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/web-scraper.jpg" alt="">
+                                <p>For this project I had a requirement to create an automated system that would be able to manage the parking pages for several niche domains for sale. They all needed to have a similar template, but they all needed to be able to pull specific data from various websites that do not provide API’s. I created a system that reads a JSON configuration file and scrapes the web for the data for the specific domains. Once the scraper has retrieved the needed data it rebuilds the parking pages using a simple templating system and automatically deploys the sites via FTP. This keeps the clients parking pages up to date. If they ever want to change the template they only need to do it in one place, and they are notified via email if there is ever an issue. <b>Node.js, Gulp, cheerio, vinyl-ftp, HTML, Bootstrap, Linux, cron.</b></p>
+                                <ul class="list-inline">
+                                    <li>Client: Kelley Code Labs LLC</li>
+                                    <li>Category: Full Stack Development</li>
+                                </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -497,98 +459,14 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/sales-tracking.jpg" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/web-scraper.jpg" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/wireless-reseller.jpg" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/android.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>My Portfolio Page</h2>
+                                <p class="item-intro text-muted">Web Development</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="">
+                                <p>This website was built in order to showcase some of my web development skills. It is a fairly simple bootstrap site based on a template. I have built out a fairly comprehensive task running system using gulp to automate many tasks during the development and deployment process. It compiles LESS to CSS, concatenates javascript and CSS into as few files as possible, minifies CSS, JS and HTML creating filemaps for local development. My build process also determines the critical path styles and inlines them into the header, while loading the rest of the css in a non-blocking way to help improve page load times. When running the dev task the gulp task watches files for changes and will rebuild items as necessary to make sure what I see in the browser includes my latest changes locally. Finally I created a task to deploy my files to my hosing provider via FTP from the command line. You can see my code <a href="https://github.com/SeanKelleyx/userPageCodeRepo" target="_blank">here</a>. <b>Node.js, Gulp, vinyl-ftp, HTML, Bootstrap</b></p>
+                                <ul class="list-inline">
+                                    <li>Client: Me</li>
+                                    <li>Category: Web Development</li>
+                                </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
