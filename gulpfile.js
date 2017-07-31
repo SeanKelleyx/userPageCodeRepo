@@ -37,8 +37,8 @@ gulp.task('less', function() {
 
 // Concatenate CSS
 gulp.task('concat-css', ['less'], function(){
-	return gulp.src(['vendor/bootstrap/css/bootstrap.min.css',
-		'vendor/font-awesome/css/font-awesome.min.css',
+	return gulp.src(['node_modules/bootstrap/dist/css/bootstrap.min.css',
+		'node_modules/font-awesome/css/font-awesome.min.css',
 		'https://fonts.googleapis.com/css?family=Montserrat:400,700',
 		'https://fonts.googleapis.com/css?family=Kaushan+Script',
 		'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
@@ -65,10 +65,16 @@ gulp.task('minify-css', ['concat-css'], function() {
         }));
 });
 
+// Copy down fonts from node_modules
+gulp.task('copy-fonts', function(){
+    return gulp.src(['node_modules/font-awesome/fonts/**'])
+    .pipe(gulp.dest('./fonts'));
+})
+
 // Concatenate JS
 gulp.task('concat-js', function(){
-	return gulp.src(['vendor/jquery/jquery.min.js',
-		'vendor/bootstrap/js/bootstrap.min.js',
+	return gulp.src(['node_modules/jquery/dist/jquery.min.js',
+		'node_modules/bootstrap/dist/js/bootstrap.min.js',
 		'js/jqBootstrapValidation.js',
 		'js/contact_me.js',
 		'js/agency.js',
@@ -123,11 +129,11 @@ gulp.task('html', ['copy-files-build'], function(){
 });
 
 gulp.task('del', function(){
-    del(['dist', 'build']);
+    del(['build']);
 });
 
-gulp.task('copy-files-build', ['del', 'less', 'minify-css', 'minify-js'], function(){
-    return gulp.src(["css/main.min.css", "js/main.min.js", "img/**"], {base: "./"})
+gulp.task('copy-files-build', ['del', 'less', 'minify-css', 'minify-js', 'copy-fonts'], function(){
+    return gulp.src(["css/main.min.css", "fonts/**", "img/**", "js/main.min.js", "mail/contact_me.php"], {base: "./"})
     .pipe(gulp.dest('build'));
 });
 
@@ -152,7 +158,7 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html'], function() {
+gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html', 'copy-fonts'], function() {
 
     gulp.watch('less/*.less', ['less']);
     gulp.watch('css/*.css', ['minify-css']);
@@ -164,5 +170,5 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html'],
 });
 
 gulp.task('build', ['minify-html'], function(){
-
+    return del(['build/index.build.html']);
 });

@@ -12,6 +12,7 @@
     <title>Sean Kelley | Software Engineer</title>
 
     <link href="{{STYLE}}" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
 </head>
 
 <body id="page-top" class="index">
