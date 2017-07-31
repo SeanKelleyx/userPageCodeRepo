@@ -13,7 +13,9 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     critical = require('critical').stream,
     del = require('del'),
-    htmlmin = require('gulp-htmlmin');
+    htmlmin = require('gulp-htmlmin'),
+    ftp = require( 'vinyl-ftp' ),
+    ftpCreds = require('./ftp-creds.js');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -68,7 +70,7 @@ gulp.task('minify-css', ['concat-css'], function() {
 // Copy down fonts from node_modules
 gulp.task('copy-fonts', function(){
     return gulp.src(['node_modules/font-awesome/fonts/**'])
-    .pipe(gulp.dest('./fonts'));
+        .pipe(gulp.dest('./fonts'));
 })
 
 // Concatenate JS
@@ -134,7 +136,7 @@ gulp.task('del', function(){
 
 gulp.task('copy-files-build', ['del', 'less', 'minify-css', 'minify-js', 'copy-fonts'], function(){
     return gulp.src(["css/main.min.css", "fonts/**", "img/**", "js/main.min.js", "mail/contact_me.php"], {base: "./"})
-    .pipe(gulp.dest('build'));
+        .pipe(gulp.dest('build'));
 });
 
 //critical css
@@ -169,6 +171,18 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'dev-html', 
     gulp.watch('js/**/*.js', browserSync.reload);
 });
 
+// Run production build
 gulp.task('build', ['minify-html'], function(){
     return del(['build/index.build.html']);
+});
+
+// Deploy site to hosting server
+gulp.task('deploy', ['build'], function(){
+    var conn = ftp.create({
+        host:     ftpCreds.host,
+        user:     ftpCreds.user,
+        password: ftpCreds.password
+    });
+    return gulp.src(['build/**/**'], {base: './build'})
+        .pipe(conn.dest('/public_html'));
 });
