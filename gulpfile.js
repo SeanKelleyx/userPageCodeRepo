@@ -39,12 +39,9 @@ gulp.task('less', function() {
 
 // Concatenate CSS
 gulp.task('concat-css', ['less'], function(){
-	return gulp.src(['node_modules/bootstrap/dist/css/bootstrap.min.css',
+	return gulp.src(['css/imports.css',
+        'node_modules/bootstrap/dist/css/bootstrap.min.css',
 		'node_modules/font-awesome/css/font-awesome.min.css',
-		'https://fonts.googleapis.com/css?family=Montserrat:400,700',
-		'https://fonts.googleapis.com/css?family=Kaushan+Script',
-		'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
-		'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700',
 		'css/agency.css',
         'css/sean.css'])
 		.pipe(maps.init())
