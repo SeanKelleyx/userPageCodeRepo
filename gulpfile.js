@@ -39,8 +39,7 @@ gulp.task('less', function() {
 
 // Concatenate CSS
 gulp.task('concat-css', ['less'], function(){
-	return gulp.src(['css/imports.css',
-        'node_modules/bootstrap/dist/css/bootstrap.min.css',
+	return gulp.src(['node_modules/bootstrap/dist/css/bootstrap.min.css',
 		'node_modules/font-awesome/css/font-awesome.min.css',
 		'css/agency.css',
         'css/sean.css'])
