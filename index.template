@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A excellent Software Engineer, with hands on experience on enterprise level applications, from concept to design, product maintenance and testing.">
+    <meta name="description" content="Experienced in many facets of software engineering, enterprise level applications, website design and development, web and mobile application development.">
     <meta name="author" content="Sean Kelley">
 
     <title>Sean Kelley | Software Engineer</title>
@@ -126,7 +126,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/report-ordering.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/report-ordering.jpg" class="img-responsive" alt="Report ordering image.">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="truncate">Report Ordering - Carfax</h4>
@@ -140,7 +140,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/web-scraper.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/web-scraper.jpg" class="img-responsive" alt="Web Scraping and FTP automation image.">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="truncate">Web Scraping and FTP Automation</h4>
@@ -154,7 +154,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/this-site.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/this-site.png" class="img-responsive" alt="This Website image.">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="truncate">This Website</h4>
@@ -179,7 +179,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/logos/jwspeaker-logo.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/logos/jwspeaker-logo.jpg" alt="JW Speaker logo.">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -193,7 +193,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/logos/herzing-university-logo.png" alt="">
+                                <img class="img-circle img-responsive" src="img/logos/herzing-university-logo.png" alt="Herzing University Logo">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -207,7 +207,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/logos/herzing-university-logo.png" alt="">
+                                <img class="img-circle img-responsive" src="img/logos/herzing-university-logo.png" alt="Herzing University Logo">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -221,7 +221,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/logos/acuity-mutual-squarelogo.png" alt="">
+                                <img class="img-circle img-responsive" src="img/logos/acuity-mutual-squarelogo.png" alt="Acuity Mutual Logo">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -235,7 +235,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/coding.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/coding.jpg" alt="PXL Technologies contracting">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -249,7 +249,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/coffe-computer.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/coffe-computer.jpg" alt="Kelley Code Labs image">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -263,7 +263,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/laptop.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/laptop.jpg" alt="Computer image">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -401,7 +401,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Report Ordering - Carfax</h2>
                                 <p class="item-intro text-muted">Backend Development</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/report-ordering.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/report-ordering.jpg" alt="Report Ordering image">
                                 <p>My team at Acuity Insurance owns several of our company's applications, one of which is the Report Ordering system. We order data from several third party providers to determine what a person's insurance rate should be, and for other purposes like easing use on our website. One project that I did on our report ordering system was to integrate ordering data from Carfax. The first thing I did was to create an internal SOAP API for other teams in the company to use to request data. This was a SOAP service API because of a requirement to make this accessible to programs calling from a Mainframe legacy system which handles SOAP services much easier than REST. I then created a database system to store requests and responses for reporting and accounting purposes, and also to handle response caching. There was also a requirement to handle asynchronous requests, so I created the necessary integration with the messaging queue for the system to be able to handle requests. Finally I created the integration with the Carfax REST service to actually order the data, and parse out the data needed by the calling user. Over the last year the system has handled 1,648,636 requests. I was the only developer working on this part of the project, other developers on other teams setup the integration with their systems to call and use the retrieved data (rating system, website for getting vin numbers from a given license plate, etc). <b>Java, XML, SOAP and RESTful Web Services, IBM DB2, IBM Websphere Application Server.</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Acuity Insurance</li>
@@ -433,7 +433,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Web Scraping and Deployment Automation</h2>
                                 <p class="item-intro text-muted">Full Stack Development</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/web-scraper.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/web-scraper.jpg" alt="Web Scraping project image">
                                 <p>For this project I had a requirement to create an automated system that would be able to manage the parking pages for several niche domains for sale. They all needed to have a similar template, but they all needed to be able to pull specific data from various websites that do not provide API’s. I created a system that reads a JSON configuration file and scrapes the web for the data for the specific domains. Once the scraper has retrieved the needed data it rebuilds the parking pages using a simple templating system and automatically deploys the sites via FTP. This keeps the clients parking pages up to date. If they ever want to change the template they only need to do it in one place, and they are notified via email if there is ever an issue. <b>Node.js, Gulp, cheerio, vinyl-ftp, HTML, Bootstrap, Linux, cron.</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Kelley Code Labs LLC</li>
@@ -465,7 +465,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>My Portfolio Page</h2>
                                 <p class="item-intro text-muted">Web Development</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="My Portfolio Page image">
                                 <p>This website was built in order to showcase some of my web development skills. It is a fairly simple bootstrap site based on a template. I have built out a comprehensive task running system using gulp to automate many tasks during the development and deployment process. It compiles LESS to CSS, concatenates JS and CSS into as few files as possible, minifies CSS, JS and HTML creating filemaps for local development. My build process also determines the critical path styles and inlines them into the header, while loading the rest of the css in a non-blocking way to help improve page load times. When running the dev task the gulp task watches files for changes and will rebuild items as necessary to make sure what I see in the browser includes my latest changes locally. Finally I created a task to deploy my files to my hosing provider via FTP from the command line. You can see my code <a href="https://github.com/SeanKelleyx/userPageCodeRepo" target="_blank">here</a>. <b>Node.js, Gulp, vinyl-ftp, HTML, Bootstrap</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Me</li>
