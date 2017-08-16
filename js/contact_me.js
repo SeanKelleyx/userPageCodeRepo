@@ -30,6 +30,8 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
+                    // Send GA success event
+                    ga('send', 'event', 'contact', 'success', 'Contact Form Success');
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -43,6 +45,8 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
+                    // Send GA fail event
+                    ga('send', 'event', 'contact', 'fail', 'Contact Form Failure');
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
