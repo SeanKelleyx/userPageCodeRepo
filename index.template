@@ -144,7 +144,7 @@
                     </div>
                  </div>
 		 <div class="col-md-4 col-sm-6 portfolio-item">
-                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                          <div class="portfolio-hover">
                              <div class="portfolio-hover-content">
                                  <i class="fa fa-plus fa-3x"></i>
@@ -550,7 +550,7 @@
                                 <h2>Ready Mobile - Ecommerce</h2>
                                 <p class="item-intro text-muted">Full Stack Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/ready_mobile.png" alt="">
-                                <p>One of the ongoing project I work on is the ecommerce site for Ready Mobile, an MVNO (Mobile Virtual Network Operator). As an MVNO REady Mobile Provides their customers with cellular products and services. I have helped to build and maintain their ecommecre site. In addition to standard on page SEO we use a variety of ad campaigns and marketing strategies to drive traffic to the ecommerce site and help the client reach their goals. In order to handle order and inventory operations we connect with the clients existing legacy backend and Salesforce cloud using SOAP and REST APIs.</p>
+                                <p>One of the ongoing projects I work on is the ecommerce site for Ready Mobile, an MVNO (Mobile Virtual Network Operator). As an MVNO Ready Mobile Provides their customers with cellular products and services. I have helped to build and maintain their ecommecre site. In addition to standard on page SEO we use a variety of ad campaigns and marketing strategies to drive traffic to the ecommerce site and help the client reach their goals. In order to handle order and inventory operations we connect with the clients existing legacy backend and Salesforce cloud using SOAP and REST APIs. <b>PHP, Laravel, REST, SOAP, HTML, CSS, Javascript, NODE.js, Webpack, Salesforce</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Ready Mobile</li>
                                     <li>Category: Full Stack Development</li>
@@ -582,7 +582,7 @@
                                 <h2>Hotel Bothwell Wordpress Site</h2>
                                 <p class="item-intro text-muted">Full Stack Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/hotel_bothwell.png" alt="">
-                                <p></p>
+                                <p>I am including the Hotel Bothwell webiste as an example of some standard WordPress development I have done. The hotel is a historical local hotel and they wanted a simple wordpress public facing website to supplement their third party booking site. Their main goals for this site were to drive more traffic and sales with attention to their limo service and spa. I accomplished this through a great focussed limo page and a sub-site for the spa. This includes monthly specials, and it's own sub-navigation. <b>Wordpress, PHP, HTML, CSS</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Hotel Bothwell</li>
                                     <li>Category: Full Stack Development</li>
@@ -614,7 +614,7 @@
                                 <h2>305 Spin Wordpress Plugin</h2>
                                 <p class="item-intro text-muted">Wordpress Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/305_spin_plugin.png" alt="">
-                                <p></p>
+                                <p>For most if not all of the Wordpress sites we build at my current agency there are some standard modifications we do. While most of these are simply taken care of using hooks in the functions.php file and small plugins we thought it would be best to create a single plugin that could take care of all of these in one place. I took the initiative to creat a nice branded plugin for our agency that could accomplish these goals so that our less technically inclined personnel could easilly accomplish these small tasks. They include; branding the login page with client logos and adjusting link hrefs etc, loading jQuery (including non-default versions) from a CDN to improve load times, textarea's to include code in the head and after the footer, adding a Googel Analytics ID for tracking, and adding the ability to duplicate pages and posts, and more. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: 305 Spin</li>
                                     <li>Category: Wordpress Development</li>
