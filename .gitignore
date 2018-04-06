@@ -8,3 +8,4 @@ fonts
 .DS_Store
 build
 ftp-creds.js
+*.swp
