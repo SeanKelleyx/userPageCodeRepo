@@ -1,0 +1,12 @@
+{
+    "name": "sean/user-page-code-repo",
+    "authors": [
+        {
+            "name": "Sean Kelley",
+            "email": "s.kelley27@gmail.com"
+        }
+    ],
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.2"
+    }
+}
