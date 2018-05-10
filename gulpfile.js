@@ -131,7 +131,7 @@ gulp.task('del', function(){
 });
 
 gulp.task('copy-files-build', ['del', 'less', 'minify-css', 'minify-js', 'copy-fonts'], function(){
-    return gulp.src([".htaccess", "css/main.min.css", "fonts/**", "img/**", "js/main.min.js", "mail/contact_me.php"], {base: "./"})
+    return gulp.src([".htaccess", "css/main.min.css", "fonts/**", "img/**", "js/main.min.js", "mail/contact_me.php", "vendor/**"], {base: "./"})
         .pipe(gulp.dest('build'));
 });
 
