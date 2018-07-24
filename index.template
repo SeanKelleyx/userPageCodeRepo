@@ -131,7 +131,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="truncate">Ready Mobile - Ecommerce Site</h4>
-                        <p class="text-muted">Full Stack  Development</p>
+			<p class="text-muted">Full Stack  Development - <a href="https://www.readymobile.com" target="_blank">Visit Site</a></p>
                     </div>
                 </div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
@@ -145,7 +145,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="truncate">Hotel Bothwell Wordpress Site</h4>
-                        <p class="text-muted">Full Stack Development</p>
+			<p class="text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_blank">Visit Site</a></p>
                     </div>
                  </div>
 		 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -203,7 +203,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="truncate">This Website</h4>
-                        <p class="text-muted">Web Development</p>
+			<p class="text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">See Code</a></p>
                     </div>
                 </div>
             </div>
@@ -520,10 +520,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>My Portfolio Page</h2>
-                                <p class="item-intro text-muted">Web Development</p>
+                                <h2>This Website</h2>
+                                <p class="item-intro text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">See Code</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="My Portfolio Page image">
-                                <p>This website was built in order to showcase some of my web development skills. It is a fairly simple bootstrap site based on a template. I have built out a comprehensive task running system using gulp to automate many tasks during the development and deployment process. It compiles LESS to CSS, concatenates JS and CSS into as few files as possible, minifies CSS, JS and HTML creating filemaps for local development. My build process also determines the critical path styles and inlines them into the header, while loading the rest of the css in a non-blocking way to help improve page load times. When running the dev task the gulp task watches files for changes and will rebuild items as necessary to make sure what I see in the browser includes my latest changes locally. Finally I created a task to deploy my files to my hosing provider via FTP from the command line. You can see my code <a href="https://github.com/SeanKelleyx/userPageCodeRepo" target="_blank">here</a>. <b>Node.js, Gulp, vinyl-ftp, HTML, Bootstrap</b></p>
+                                <p>This website was built in order to showcase some of my web development skills. It is a fairly simple bootstrap site based on a template. I have built out a comprehensive task running system using gulp to automate many tasks during the development and deployment process. It compiles LESS to CSS, concatenates JS and CSS into as few files as possible, minifies CSS, JS and HTML creating filemaps for local development. My build process also determines the critical path styles and inlines them into the header, while loading the rest of the css in a non-blocking way to help improve page load times. When running the dev task the gulp task watches files for changes and will rebuild items as necessary to make sure what I see in the browser includes my latest changes locally. Finally I created a task to deploy my files to my hosting provider via FTP from the command line. You can see my code <a href="https://github.com/SeanKelleyx/userPageCodeRepo" target="_blank">here</a>. <b>Node.js, Gulp, vinyl-ftp, HTML, Bootstrap</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Me</li>
                                     <li>Category: Web Development</li>
@@ -553,7 +553,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Ready Mobile - Ecommerce</h2>
-                                <p class="item-intro text-muted">Full Stack Development</p>
+				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.readymobile.com" target="_blank">Visit Site</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/ready_mobile.png" alt="">
                                 <p>One of the ongoing projects I work on is the ecommerce site for Ready Mobile, an MVNO (Mobile Virtual Network Operator). As an MVNO Ready Mobile Provides their customers with cellular products and services. I have helped to build and maintain their ecommecre site. In addition to standard on page SEO we use a variety of ad campaigns and marketing strategies to drive traffic to the ecommerce site and help the client reach their goals. In order to handle order and inventory operations we connect with the clients existing legacy backend and Salesforce cloud using SOAP and REST APIs. <b>PHP, Laravel, REST, SOAP, HTML, CSS, Javascript, NODE.js, Webpack, Salesforce</b></p>
                                 <ul class="list-inline">
@@ -585,7 +585,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Hotel Bothwell Wordpress Site</h2>
-                                <p class="item-intro text-muted">Full Stack Development</p>
+				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_bank">Visit Site</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/hotel_bothwell.png" alt="">
                                 <p>I am including the Hotel Bothwell webiste as an example of some standard WordPress development I have done. The hotel is a historical local hotel and they wanted a simple wordpress public facing website to supplement their third party booking site. Their main goals for this site were to drive more traffic and sales with attention to their limo service and spa. I accomplished this through a great focussed limo page and a sub-site for the spa. This includes monthly specials, and it's own sub-navigation. <b>Wordpress, PHP, HTML, CSS</b></p>
                                 <ul class="list-inline">
