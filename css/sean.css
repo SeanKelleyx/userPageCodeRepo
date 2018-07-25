@@ -22,9 +22,13 @@ textarea::placeholder {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+h4.truncate {
+	cursor: default;
+}	
 .portfolio-link > img {
 	width: 100%;
 }
 .portfolio-link {
 	border: 1px solid #ffffff;
 }
+

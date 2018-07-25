@@ -120,7 +120,49 @@
                 </div>
             </div>
 	    <div class="row">
-	        <div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/assurance.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="truncate" title="Assurance Wireless - Marketing Site">Assurance Wireless - Marketing Site</h4>
+			<p class="text-muted">Full Stack  Development - <a href="https://www.assurancewireless.com" target="_blank">View</a></p>
+                    </div>
+                </div>
+		<div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/homeranch.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="truncate" title="The Home Ranch Wordpress Site">The Home Ranch Wordpress Site</h4>
+			<p class="text-muted">Wordpress Development - <a href="https://www.homeranch.com" target="_blank">View</a></p>
+                    </div>
+                 </div>
+		 <div class="col-md-4 col-sm-12 portfolio-item">
+                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                         <div class="portfolio-hover">
+                             <div class="portfolio-hover-content">
+                                 <i class="fa fa-plus fa-3x"></i>
+                             </div>
+                         </div>
+                         <img src="img/portfolio/choctawpines.png" class="img-responsive" alt="">
+                     </a>
+                     <div class="portfolio-caption">
+                         <h4 class="truncate" title="Choctaw Pines Casino Wordpress Site">Choctaw Pines Casino Wordpress Site</h4>
+			 <p class="text-muted">Wordpress  Development - <a href="https://www.choctawpines.com">View</a></p>
+                     </div>
+                 </div>
+	        <div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -130,11 +172,11 @@
                         <img src="img/portfolio/ready_mobile.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">Ready Mobile - Ecommerce Site</h4>
-			<p class="text-muted">Full Stack  Development - <a href="https://www.readymobile.com" target="_blank">Visit Site</a></p>
+                        <h4 class="truncate" title="Ready Mobile - Ecommerce Site">Ready Mobile - Ecommerce Site</h4>
+			<p class="text-muted">Full Stack  Development - <a href="https://www.readymobile.com" target="_blank">View</a></p>
                     </div>
                 </div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -144,11 +186,11 @@
                         <img src="img/portfolio/hotel_bothwell.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">Hotel Bothwell Wordpress Site</h4>
-			<p class="text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_blank">Visit Site</a></p>
+                        <h4 class="truncate" title="Hotel Bothwell Wordpress Site">Hotel Bothwell Wordpress Site</h4>
+			<p class="text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_blank">View</a></p>
                     </div>
                  </div>
-		 <div class="col-md-4 col-sm-6 portfolio-item">
+		 <div class="col-md-4 col-sm-12 portfolio-item">
                      <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                          <div class="portfolio-hover">
                              <div class="portfolio-hover-content">
@@ -158,13 +200,13 @@
                          <img src="img/portfolio/305_spin_plugin.png" class="img-responsive" alt="">
                      </a>
                      <div class="portfolio-caption">
-                         <h4 class="truncate">305 Spin Wordpress Plugin</h4>
+                         <h4 class="truncate" title="305 Spin Wordpress Plugin">305 Spin Wordpress Plugin</h4>
                          <p class="text-muted">Wordpress  Development</p>
                      </div>
                  </div>
-	    </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+	    <!--</div>
+	    <div class="row">-->
+                <div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -174,11 +216,11 @@
                         <img src="img/portfolio/report-ordering.jpg" class="img-responsive" alt="Report ordering image.">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">Report Ordering - Carfax</h4>
+                        <h4 class="truncate" title="Report Ordering - Carfax">Report Ordering - Carfax</h4>
                         <p class="text-muted">Backend Development</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -188,11 +230,11 @@
                         <img src="img/portfolio/web-scraper.jpg" class="img-responsive" alt="Web Scraping and FTP automation image.">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">Web Scraping and FTP Automation</h4>
+                        <h4 class="truncate" title="Web Scraping and FTP Automation">Web Scraping and FTP Automation</h4>
                         <p class="text-muted">Full Stack Development</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -202,8 +244,8 @@
                         <img src="img/portfolio/this-site.png" class="img-responsive" alt="This Website image.">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate">This Website</h4>
-			<p class="text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">See Code</a></p>
+                        <h4 class="truncate" title="This Website">This Website</h4>
+			<p class="text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">View</a></p>
                     </div>
                 </div>
             </div>
@@ -521,7 +563,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>This Website</h2>
-                                <p class="item-intro text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">See Code</a></p>
+                                <p class="item-intro text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="My Portfolio Page image">
                                 <p>This website was built in order to showcase some of my web development skills. It is a fairly simple bootstrap site based on a template. I have built out a comprehensive task running system using gulp to automate many tasks during the development and deployment process. It compiles LESS to CSS, concatenates JS and CSS into as few files as possible, minifies CSS, JS and HTML creating filemaps for local development. My build process also determines the critical path styles and inlines them into the header, while loading the rest of the css in a non-blocking way to help improve page load times. When running the dev task the gulp task watches files for changes and will rebuild items as necessary to make sure what I see in the browser includes my latest changes locally. Finally I created a task to deploy my files to my hosting provider via FTP from the command line. You can see my code <a href="https://github.com/SeanKelleyx/userPageCodeRepo" target="_blank">here</a>. <b>Node.js, Gulp, vinyl-ftp, HTML, Bootstrap</b></p>
                                 <ul class="list-inline">
@@ -553,7 +595,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Ready Mobile - Ecommerce</h2>
-				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.readymobile.com" target="_blank">Visit Site</a></p>
+				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.readymobile.com" target="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/ready_mobile.png" alt="">
                                 <p>One of the ongoing projects I work on is the ecommerce site for Ready Mobile, an MVNO (Mobile Virtual Network Operator). As an MVNO Ready Mobile Provides their customers with cellular products and services. I have helped to build and maintain their ecommecre site. In addition to standard on page SEO we use a variety of ad campaigns and marketing strategies to drive traffic to the ecommerce site and help the client reach their goals. In order to handle order and inventory operations we connect with the clients existing legacy backend and Salesforce cloud using SOAP and REST APIs. <b>PHP, Laravel, REST, SOAP, HTML, CSS, Javascript, NODE.js, Webpack, Salesforce</b></p>
                                 <ul class="list-inline">
@@ -585,7 +627,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Hotel Bothwell Wordpress Site</h2>
-				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_bank">Visit Site</a></p>
+				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/hotel_bothwell.png" alt="">
                                 <p>I am including the Hotel Bothwell webiste as an example of some standard WordPress development I have done. The hotel is a historical local hotel and they wanted a simple wordpress public facing website to supplement their third party booking site. Their main goals for this site were to drive more traffic and sales with attention to their limo service and spa. I accomplished this through a great focussed limo page and a sub-site for the spa. This includes monthly specials, and it's own sub-navigation. <b>Wordpress, PHP, HTML, CSS</b></p>
                                 <ul class="list-inline">
@@ -622,6 +664,102 @@
                                 <p>For most if not all of the Wordpress sites we build at my current agency there are some standard modifications we do. While most of these are simply taken care of using hooks in the functions.php file and small plugins we thought it would be best to create a single plugin that could take care of all of these in one place. I took the initiative to creat a nice branded plugin for our agency that could accomplish these goals so that our less technically inclined personnel could easilly accomplish these small tasks. They include; branding the login page with client logos and adjusting link hrefs etc, loading jQuery (including non-default versions) from a CDN to improve load times, textarea's to include code in the head and after the footer, adding a Googel Analytics ID for tracking, and adding the ability to duplicate pages and posts, and more. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: 305 Spin</li>
+                                    <li>Category: Wordpress Development</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Assurance Wireless - Marketing Site</h2>
+				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.assurancewireless.com" target="_blank">View</a></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/assurance.png" alt="">
+                                <p>I was the lead developer on this project. The client's old site was in ASP.net and the people maintaining their site were taking a long time to make changes. They wanted to be able to make changes themselves with little technical background so I built them this site on the Concrete CMS platform. The theme is fully customized and I built many custom page templates in PHP and less and built in lots of integration with their existing API. In addition to helping to build the site, I assisted the client's IT department in setting up and configuring their self-hosted Linux environment.<b>PHP, MySQL, Concrete5 CMS, HTML, CSS, Javascript, LESS</b></p>
+                                <ul class="list-inline">
+                                    <li>Client: Assurance Wireless</li>
+                                    <li>Category: Full Stack Development</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>The Home Ranch Wordpress Site</h2>
+				<p class="item-intro text-muted">Wirdpress Development - <a href="https://www.homeranch.com" target="_bank">View</a></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/homeranch.png" alt="">
+                                <p>I worked with another developer to complete this site update for The Home Ranch. This client had an existing site that was still good, but had just begun to feel a little dated. The challenge with this site was to give it an updated and modern feel, while still maintaining a old-time, rugged western feel. The client's existing site was in WordPress and they wanted to be able to continue managing content in this way, so we kept it in WordPress and updated and customized the theme. I also worked on skinning the clients reservations system to match the new look and feel of the website. <b>Wordpress, PHP, HTML, CSS, Javascript</b></p>
+                                <ul class="list-inline">
+                                    <li>Client: The Home Ranch</li>
+                                    <li>Category: Wordpress Development</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Choctaw Pines Casino Wordpress Site</h2>
+				<p class="item-intro text-muted">Wordpress Development - <a href="https://www.choctawpines.com" target="_blank">View</a></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/choctawpines.png" alt="">
+                                <p>For this project the client had a great looking and working site, but it was hard for some of their non-technical staff to maintain, add events etc. I rebuilt the site with an easy to use Wordpress theme, now the client can simply use the wysiwyg editor to take care of all of their regular tasks without needing any specialized knowledge. This involved not only customizing the theme but customizing templates for use with certain plugins. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
+                                <ul class="list-inline">
+                                    <li>Client: Choctaw Pines Casino</li>
                                     <li>Category: Wordpress Development</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>

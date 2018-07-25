@@ -13,9 +13,9 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     critical = require('critical').stream,
     del = require('del'),
-    htmlmin = require('gulp-htmlmin'),
-    ftp = require( 'vinyl-ftp' ),
-    ftpCreds = require('./ftp-creds.js');
+    htmlmin = require('gulp-htmlmin');
+    //ftp = require( 'vinyl-ftp' ),
+    //ftpCreds = require('./ftp-creds.js');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -150,7 +150,7 @@ gulp.task('default', ['less', 'minify-css', 'minify-js']);
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
-            baseDir: ''
+            baseDir: '.'
         },
     });
 })
@@ -173,12 +173,12 @@ gulp.task('build', ['minify-html'], function(){
 });
 
 // Deploy site to hosting server
-gulp.task('deploy', ['build'], function(){
+/*gulp.task('deploy', ['build'], function(){
     var conn = ftp.create({
         host:     ftpCreds.host,
         user:     ftpCreds.user,
         password: ftpCreds.password
-    });
-    return gulp.src(['build/**/**'], {base: './build'})
-        .pipe(conn.dest('/public_html'));
-});
+    });*/
+    //return gulp.src(['build/**/**'], {base: './build'})
+      //  .pipe(conn.dest('/public_html'));
+//});
