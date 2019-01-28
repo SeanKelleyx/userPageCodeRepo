@@ -120,6 +120,90 @@
                 </div>
             </div>
 	    <div class="row">
+		 <div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/airvoice.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="truncate" title="Airvoice Wireless">Airvoice Wireless</h4>
+			<p class="text-muted">Full Stack  Development - <a href="https://www.airvoiceireless.com" target="_blank">View</a></p>
+                    </div>
+                </div>
+		<div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/forthall.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="truncate" title="Shoshone-Bannock Hotel and Casino Wordpress Site">Shoshone-Bannock Casino Wordpress Site</h4>
+			<p class="text-muted">Wordpress Development - <a href="https://www.shobangaming.com" target="_blank">View</a></p>
+                    </div>
+                 </div>
+		 <div class="col-md-4 col-sm-12 portfolio-item">
+                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                         <div class="portfolio-hover">
+                             <div class="portfolio-hover-content">
+                                 <i class="fa fa-plus fa-3x"></i>
+                             </div>
+                         </div>
+                         <img src="img/portfolio/lineone.png" class="img-responsive" alt="">
+                     </a>
+                     <div class="portfolio-caption">
+                         <h4 class="truncate" title="LineOne Site">LineOne Marketing Site</h4>
+			 <p class="text-muted">Full Stack Development - <a href="https://line.one">View</a></p>
+                     </div>
+                 </div>
+		 <div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/sbtgrvl.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="truncate" title="SBT GRVL Wordpress Site">SBT GRVL WordPress Site</h4>
+			<p class="text-muted">WordPress  Development - <a href="https://sbtgrvl.com" target="_blank">View</a></p>
+                    </div>
+                </div>
+		<div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/mosba.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="truncate" title="Missouri School Boards Associateion Wordpress Site">Missouri School Boards Association Wordpress Site</h4>
+			<p class="text-muted">Wordpress Development - <a href="https://mosba.org" target="_blank">View</a></p>
+                    </div>
+                 </div>
+		 <div class="col-md-4 col-sm-12 portfolio-item">
+                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                         <div class="portfolio-hover">
+                             <div class="portfolio-hover-content">
+                                 <i class="fa fa-plus fa-3x"></i>
+                             </div>
+                         </div>
+                         <img src="img/portfolio/qeo.png" class="img-responsive" alt="">
+                     </a>
+                     <div class="portfolio-caption">
+                         <h4 class="truncate" title="QEO Wordpress Site">QEO Wordpress Site</h4>
+			 <p class="text-muted">Wordpress  Development - <a href="https://www.qeo.com">View</a></p>
+                     </div>
+                 </div>
 		<div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -249,6 +333,9 @@
                     </div>
                 </div>
             </div>
+	    <div class="row text-center">
+		<button class="btn btn-xl">Load More</button>
+	    </div>
         </div>
     </section>
 
