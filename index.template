@@ -456,7 +456,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>2017 - Present</h4>
-                                    <h4 class="subheading">Lead Web Developer <a href="https://www.305spin.com/" target="_blank">305 Spin</a></h4>
+                                    <h4 class="subheading">Lead PHP Developer <a href="https://www.305spin.com/" target="_blank">305 Spin</a></h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">I build and manage multiple websites, applications and servers. We use Laravel, WordPress, Javascript, and other technologies to provide our clients with excellent products.</p>
@@ -592,6 +592,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Acuity Insurance</li>
                                     <li>Category: Backend Development</li>
+				    <li>Usage: 4500+ Requests Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -624,6 +625,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Kelley Code Labs LLC</li>
                                     <li>Category: Full Stack Development</li>
+				    <li>Usage: 23 Runs Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -656,6 +658,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Me</li>
                                     <li>Category: Web Development</li>
+				    <li>Usage: 1-2 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -688,6 +691,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Ready Mobile</li>
                                     <li>Category: Full Stack Development</li>
+				    <li>Usage: 20 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -720,6 +724,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Hotel Bothwell</li>
                                     <li>Category: Full Stack Development</li>
+				    <li>Usage: 60 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -752,6 +757,7 @@
                                 <ul class="list-inline">
                                     <li>Client: 305 Spin</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 20+ Installs</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -784,6 +790,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Assurance Wireless</li>
                                     <li>Category: Full Stack Development</li>
+				    <li>Usage: 30k Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -816,6 +823,7 @@
                                 <ul class="list-inline">
                                     <li>Client: The Home Ranch</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 300 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -848,6 +856,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Choctaw Pines Casino</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 250 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -880,6 +889,7 @@
                                 <ul class="list-inline">
                                     <li>Client: QEO Insurance Group</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 80 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -912,6 +922,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Missouri School Board Association</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 350 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -944,6 +955,7 @@
                                 <ul class="list-inline">
                                     <li>Client: SBT GRVL</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 80 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -976,6 +988,7 @@
                                 <ul class="list-inline">
                                     <li>Client: LineOne</li>
                                     <li>Category: Full-Stack Development</li>
+				    <li>Users: 80 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -1008,6 +1021,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Shoshone-Bannock Tribe</li>
                                     <li>Category: WordPress Development</li>
+				    <li>Usage: 400 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -1040,6 +1054,7 @@
                                 <ul class="list-inline">
                                     <li>Client: Airvoice Wireless</li>
                                     <li>Category: Full-Stack Development</li>
+				    <li>Usage: 600 Users Per Day</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
