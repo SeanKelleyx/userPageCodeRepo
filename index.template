@@ -144,8 +144,8 @@
                         <img src="img/portfolio/forthall.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate" title="Shoshone-Bannock Hotel and Casino Wordpress Site">Shoshone-Bannock Casino Wordpress Site</h4>
-			<p class="text-muted">Wordpress Development - <a href="https://www.shobangaming.com" target="_blank">View</a></p>
+                        <h4 class="truncate" title="Shoshone-Bannock Hotel and Casino WordPress Site">Shoshone-Bannock Casino WordPress Site</h4>
+			<p class="text-muted">WordPress Development - <a href="https://www.shobangaming.com" target="_blank">View</a></p>
                     </div>
                  </div>
 		 <div class="col-md-4 col-sm-12 portfolio-item">
@@ -172,7 +172,7 @@
                         <img src="img/portfolio/sbtgrvl.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate" title="SBT GRVL Wordpress Site">SBT GRVL WordPress Site</h4>
+                        <h4 class="truncate" title="SBT GRVL WordPress Site">SBT GRVL WordPress Site</h4>
 			<p class="text-muted">WordPress  Development - <a href="https://sbtgrvl.com" target="_blank">View</a></p>
                     </div>
                 </div>
@@ -186,8 +186,8 @@
                         <img src="img/portfolio/mosba.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate" title="Missouri School Boards Associateion Wordpress Site">Missouri School Boards Association Wordpress Site</h4>
-			<p class="text-muted">Wordpress Development - <a href="https://mosba.org" target="_blank">View</a></p>
+                        <h4 class="truncate" title="Missouri School Boards Associateion WordPress Site">Missouri School Boards Association WordPress Site</h4>
+			<p class="text-muted">WordPress Development - <a href="https://mosba.org" target="_blank">View</a></p>
                     </div>
                  </div>
 		 <div class="col-md-4 col-sm-12 portfolio-item">
@@ -200,8 +200,8 @@
                          <img src="img/portfolio/qeo.png" class="img-responsive" alt="">
                      </a>
                      <div class="portfolio-caption">
-                         <h4 class="truncate" title="QEO Wordpress Site">QEO Wordpress Site</h4>
-			 <p class="text-muted">Wordpress  Development - <a href="https://www.qeo.com">View</a></p>
+                         <h4 class="truncate" title="QEO WordPress Site">QEO WordPress Site</h4>
+			 <p class="text-muted">WordPress  Development - <a href="https://www.qeo.com">View</a></p>
                      </div>
                  </div>
 		<div class="col-md-4 col-sm-12 portfolio-item">
@@ -228,8 +228,8 @@
                         <img src="img/portfolio/homeranch.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate" title="The Home Ranch Wordpress Site">The Home Ranch Wordpress Site</h4>
-			<p class="text-muted">Wordpress Development - <a href="https://www.homeranch.com" target="_blank">View</a></p>
+                        <h4 class="truncate" title="The Home Ranch WordPress Site">The Home Ranch WordPress Site</h4>
+			<p class="text-muted">WordPress Development - <a href="https://www.homeranch.com" target="_blank">View</a></p>
                     </div>
                  </div>
 		 <div class="col-md-4 col-sm-12 portfolio-item">
@@ -242,8 +242,8 @@
                          <img src="img/portfolio/choctawpines.png" class="img-responsive" alt="">
                      </a>
                      <div class="portfolio-caption">
-                         <h4 class="truncate" title="Choctaw Pines Casino Wordpress Site">Choctaw Pines Casino Wordpress Site</h4>
-			 <p class="text-muted">Wordpress  Development - <a href="https://www.choctawpines.com">View</a></p>
+                         <h4 class="truncate" title="Choctaw Pines Casino WordPress Site">Choctaw Pines Casino WordPress Site</h4>
+			 <p class="text-muted">WordPress  Development - <a href="https://www.choctawpines.com">View</a></p>
                      </div>
                  </div>
 	        <div class="col-md-4 col-sm-12 portfolio-item">
@@ -270,7 +270,7 @@
                         <img src="img/portfolio/hotel_bothwell.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="truncate" title="Hotel Bothwell Wordpress Site">Hotel Bothwell Wordpress Site</h4>
+                        <h4 class="truncate" title="Hotel Bothwell WordPress Site">Hotel Bothwell WordPress Site</h4>
 			<p class="text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_blank">View</a></p>
                     </div>
                  </div>
@@ -284,8 +284,8 @@
                          <img src="img/portfolio/305_spin_plugin.png" class="img-responsive" alt="">
                      </a>
                      <div class="portfolio-caption">
-                         <h4 class="truncate" title="305 Spin Wordpress Plugin">305 Spin Wordpress Plugin</h4>
-                         <p class="text-muted">Wordpress  Development</p>
+                         <h4 class="truncate" title="305 Spin WordPress Plugin">305 Spin WordPress Plugin</h4>
+                         <p class="text-muted">WordPress  Development</p>
                      </div>
                  </div>
 	    <!--</div>
@@ -459,7 +459,7 @@
                                     <h4 class="subheading">Lead Web Developer <a href="https://www.305spin.com/" target="_blank">305 Spin</a></h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">I build and manage multiple websites, applications and servers. We use Laravel, Wordpress, Javascript, and other technologies to provide our clients with excellent products.</p>
+                                    <p class="text-muted">I build and manage multiple websites, applications and servers. We use Laravel, WordPress, Javascript, and other technologies to provide our clients with excellent products.</p>
                                 </div>
                             </div>                        <li class="timeline-inverted">
                             <div class="timeline-image">
@@ -713,10 +713,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Hotel Bothwell Wordpress Site</h2>
+                                <h2>Hotel Bothwell WordPress Site</h2>
 				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/hotel_bothwell.png" alt="">
-                                <p>I am including the Hotel Bothwell webiste as an example of some standard WordPress development I have done. The hotel is a historical local hotel and they wanted a simple wordpress public facing website to supplement their third party booking site. Their main goals for this site were to drive more traffic and sales with attention to their limo service and spa. I accomplished this through a great focussed limo page and a sub-site for the spa. This includes monthly specials, and it's own sub-navigation. <b>Wordpress, PHP, HTML, CSS</b></p>
+                                <p>I am including the Hotel Bothwell webiste as an example of some standard WordPress development I have done. The hotel is a historical local hotel and they wanted a simple wordpress public facing website to supplement their third party booking site. Their main goals for this site were to drive more traffic and sales with attention to their limo service and spa. I accomplished this through a great focussed limo page and a sub-site for the spa. This includes monthly specials, and it's own sub-navigation. <b>WordPress, PHP, HTML, CSS</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Hotel Bothwell</li>
                                     <li>Category: Full Stack Development</li>
@@ -745,13 +745,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>305 Spin Wordpress Plugin</h2>
-                                <p class="item-intro text-muted">Wordpress Development</p>
+                                <h2>305 Spin WordPress Plugin</h2>
+                                <p class="item-intro text-muted">WordPress Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/305_spin_plugin.png" alt="">
-                                <p>For most if not all of the Wordpress sites we build at my current agency there are some standard modifications we do. While most of these are simply taken care of using hooks in the functions.php file and small plugins we thought it would be best to create a single plugin that could take care of all of these in one place. I took the initiative to creat a nice branded plugin for our agency that could accomplish these goals so that our less technically inclined personnel could easilly accomplish these small tasks. They include; branding the login page with client logos and adjusting link hrefs etc, loading jQuery (including non-default versions) from a CDN to improve load times, textarea's to include code in the head and after the footer, adding a Googel Analytics ID for tracking, and adding the ability to duplicate pages and posts, and more. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
+                                <p>For most if not all of the WordPress sites we build at my current agency there are some standard modifications we do. While most of these are simply taken care of using hooks in the functions.php file and small plugins we thought it would be best to create a single plugin that could take care of all of these in one place. I took the initiative to creat a nice branded plugin for our agency that could accomplish these goals so that our less technically inclined personnel could easilly accomplish these small tasks. They include; branding the login page with client logos and adjusting link hrefs etc, loading jQuery (including non-default versions) from a CDN to improve load times, textarea's to include code in the head and after the footer, adding a Googel Analytics ID for tracking, and adding the ability to duplicate pages and posts, and more. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: 305 Spin</li>
-                                    <li>Category: Wordpress Development</li>
+                                    <li>Category: WordPress Development</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -809,13 +809,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>The Home Ranch Wordpress Site</h2>
+                                <h2>The Home Ranch WordPress Site</h2>
 				<p class="item-intro text-muted">Wirdpress Development - <a href="https://www.homeranch.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/homeranch.png" alt="">
-                                <p>I worked with another developer to complete this site update for The Home Ranch. This client had an existing site that was still good, but had just begun to feel a little dated. The challenge with this site was to give it an updated and modern feel, while still maintaining a old-time, rugged western feel. The client's existing site was in WordPress and they wanted to be able to continue managing content in this way, so we kept it in WordPress and updated and customized the theme. I also worked on skinning the clients reservations system to match the new look and feel of the website. <b>Wordpress, PHP, HTML, CSS, Javascript</b></p>
+                                <p>I worked with another developer to complete this site update for The Home Ranch. This client had an existing site that was still good, but had just begun to feel a little dated. The challenge with this site was to give it an updated and modern feel, while still maintaining a old-time, rugged western feel. The client's existing site was in WordPress and they wanted to be able to continue managing content in this way, so we kept it in WordPress and updated and customized the theme. I also worked on skinning the clients reservations system to match the new look and feel of the website. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: The Home Ranch</li>
-                                    <li>Category: Wordpress Development</li>
+                                    <li>Category: WordPress Development</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -841,13 +841,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Choctaw Pines Casino Wordpress Site</h2>
-				<p class="item-intro text-muted">Wordpress Development - <a href="https://www.choctawpines.com" target="_blank">View</a></p>
+                                <h2>Choctaw Pines Casino WordPress Site</h2>
+				<p class="item-intro text-muted">WordPress Development - <a href="https://www.choctawpines.com" target="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/choctawpines.png" alt="">
-                                <p>For this project the client had a great looking and working site, but it was hard for some of their non-technical staff to maintain, add events etc. I rebuilt the site with an easy to use Wordpress theme, now the client can simply use the wysiwyg editor to take care of all of their regular tasks without needing any specialized knowledge. This involved not only customizing the theme but customizing templates for use with certain plugins. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
+                                <p>For this project the client had a great looking and working site, but it was hard for some of their non-technical staff to maintain, add events etc. I rebuilt the site with an easy to use WordPress theme, now the client can simply use the wysiwyg editor to take care of all of their regular tasks without needing any specialized knowledge. This involved not only customizing the theme but customizing templates for use with certain plugins. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Choctaw Pines Casino</li>
-                                    <li>Category: Wordpress Development</li>
+                                    <li>Category: WordPress Development</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
