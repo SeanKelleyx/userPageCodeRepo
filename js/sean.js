@@ -6,5 +6,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-72168097-1', 'auto');
 ga('send', 'pageview');
 
+var currentlyShowing = 3;
+var totalPortfolioItems = $('.portfolio-item').length;
+$('button#loadMore').on('click', function(){
+	currentlyShowing += 3;
+	$('.portfolio-item:lt(' + currentlyShowing + ')').slideDown('slow', function(){});
+	if(currentlyShowing >= totalPortfolioItems){
+		$(this).hide();
+	}
+});
 
-console.log("\n\n▄▄▄▄▄ ▄ .▄ ▄▄▄·  ▐ ▄ ▄ •▄ .▄▄ ·     ·▄▄▄      ▄▄▄  \n•██  ██▪▐█▐█ ▀█ •█▌▐██▌▄▌▪▐█ ▀.     ▐▄▄·▪     ▀▄ █·\n ▐█.▪██▀▐█▄█▀▀█ ▐█▐▐▌▐▀▀▄·▄▀▀▀█▄    ██▪  ▄█▀▄ ▐▀▀▄ \n ▐█▌·██▌▐▀▐█ ▪▐▌██▐█▌▐█.█▌▐█▄▪▐█    ██▌.▐█▌.▐▌▐█•█▌\n ▀▀▀ ▀▀▀ · ▀  ▀ ▀▀ █▪·▀  ▀ ▀▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀\n ▄▄·  ▄ .▄▄▄▄ . ▄▄· ▄ •▄ ▪   ▐ ▄  ▄▄ •             \n▐█ ▌▪██▪▐█▀▄.▀·▐█ ▌▪█▌▄▌▪██ •█▌▐█▐█ ▀ ▪            \n██ ▄▄██▀▐█▐▀▀▪▄██ ▄▄▐▀▀▄·▐█·▐█▐▐▌▄█ ▀█▄            \n▐███▌██▌▐▀▐█▄▄▌▐███▌▐█.█▌▐█▌██▐█▌▐█▄▪▐█            \n·▀▀▀ ▀▀▀ · ▀▀▀ ·▀▀▀ ·▀  ▀▀▀▀▀▀ █▪·▀▀▀▀             \n      ▄• ▄▌▄▄▄▄▄    • ▌ ▄ ·.  ▄· ▄▌                \n▪     █▪██▌•██      ·██ ▐███▪▐█▪██▌                \n ▄█▀▄ █▌▐█▌ ▐█.▪    ▐█ ▌▐▌▐█·▐█▌▐█▪                \n▐█▌.▐▌▐█▄█▌ ▐█▌·    ██ ██▌▐█▌ ▐█▀·.                \n ▀█▄▀▪ ▀▀▀  ▀▀▀     ▀▀  █▪▀▀▀  ▀ •                 \n.▄▄ · ▪  ▄▄▄▄▄▄▄▄ .▄▄                              \n▐█ ▀. ██ •██  ▀▄.▀·██▌                             \n▄▀▀▀█▄▐█· ▐█.▪▐▀▀▪▄▐█·                             \n▐█▄▪▐█▐█▌ ▐█▌·▐█▄▄▌.▀                              \n ▀▀▀▀ ▀▀▀ ▀▀▀  ▀▀▀  ▀                              \n");
+console.log('Thanks for visiting my site!\nI would love to hear from you about working together.\nPlease use the contact form at the bottom of this page to reach me.\nThanks - Sean');

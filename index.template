@@ -334,7 +334,7 @@
                 </div>
             </div>
 	    <div class="row text-center">
-		<button class="btn btn-xl">Load More</button>
+		<button id="loadMore" class="btn btn-xl">Load More</button>
 	    </div>
         </div>
     </section>
