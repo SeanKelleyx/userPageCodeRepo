@@ -984,7 +984,7 @@
                                 <h2>LineOne Marketing Site</h2>
 				<p class="item-intro text-muted">Full-Stack Development - <a href="https://line.one" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/lineone.png" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices ipsum id ipsum consectetur accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed fringilla rutrum magna vulputate finibus. Nunc ex nisl, bibendum id purus vitae, iaculis bibendum neque. Proin id rhoncus ipsum, quis malesuada massa. Maecenas consequat at sem vel rhoncus. Donec ante augue, tristique ac maximus ut, fringilla in lectus. Vestibulum a est porta lectus tristique pellentesque. Donec scelerisque tempor dolor, fringilla vehicula felis condimentum at. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
+                                <p>I built this site for LineOne to help fill the need they had for a marketing and quoting site for their Cloud-based communication systems and VOIP plans. After being provided with an idea of what direction they wanted to go with design, I got to work. For phase one of this project the client wanted to have a simple brochure site. I helped to build the pages using elements from their original design, ad worked with tht e client as their vision for the site changed. <b>PHP, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: LineOne</li>
                                     <li>Category: Full-Stack Development</li>
@@ -1017,7 +1017,7 @@
                                 <h2>Shoshone-Bannock Casino Hotel WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://www.shobangaming.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/forthall.png" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices ipsum id ipsum consectetur accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed fringilla rutrum magna vulputate finibus. Nunc ex nisl, bibendum id purus vitae, iaculis bibendum neque. Proin id rhoncus ipsum, quis malesuada massa. Maecenas consequat at sem vel rhoncus. Donec ante augue, tristique ac maximus ut, fringilla in lectus. Vestibulum a est porta lectus tristique pellentesque. Donec scelerisque tempor dolor, fringilla vehicula felis condimentum at. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
+                                <p>The Shoshone-Bannock Tribes already owned three casinos in Idaho, but this new one they were building was really going to be a centerpiece of their offerings. I worked with the Tribes PR and marketing agency to execute an excellently developed website that integrates well with the hotels booking platform. The pictures from the new casino look fantastic and they now have a beautiful website to help convey that as they look to open this February. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Shoshone-Bannock Tribe</li>
                                     <li>Category: WordPress Development</li>
@@ -1050,7 +1050,7 @@
                                 <h2>Airvoice Wireless Customer Portal</h2>
 				<p class="item-intro text-muted">Full-Stack Development - <a href="https://www.airvoicewireless.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/airvoice.png" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices ipsum id ipsum consectetur accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed fringilla rutrum magna vulputate finibus. Nunc ex nisl, bibendum id purus vitae, iaculis bibendum neque. Proin id rhoncus ipsum, quis malesuada massa. Maecenas consequat at sem vel rhoncus. Donec ante augue, tristique ac maximus ut, fringilla in lectus. Vestibulum a est porta lectus tristique pellentesque. Donec scelerisque tempor dolor, fringilla vehicula felis condimentum at. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
+                                <p>Airvoice Wireless is an MVNO (Mobile Virtual Network Operator) Cell Phone carrier, and they have a siter company Feelsafe Wireless who handles Lifeline (government assisted) phone service. They needed us to help to create a user portal where their customers could log in and view information about their accouns, including personal information, billin cycle and usage info and call/data/sms records. We are looking to build on this to allow customers to set up recurring billing in the next few months. <b>PHP, HTML, CSS, Javascript, REST</b></p>
                                 <ul class="list-inline">
                                     <li>Client: Airvoice Wireless</li>
                                     <li>Category: Full-Stack Development</li>
