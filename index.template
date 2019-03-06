@@ -116,9 +116,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Here are some projects I've worked on.</h3>
+                    <h3 class="section-subheading text-muted">This section is being revamped at the request of my agency. If you have any questions at all about my</h3>
                 </div>
             </div>
+	    <!--
 	    <div class="row">
 		 <div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#modalAirvoice" class="portfolio-link" data-toggle="modal">
@@ -288,8 +289,8 @@
 			 <p class="text-muted">WordPress  Development<br>20+ Installs</p>
                      </div>
                  </div>
-	    <!--</div>
-	    <div class="row">-->
+	    </div>
+	    <div class="row">
                 <div class="col-md-4 col-sm-12 portfolio-item">
                     <a href="#modalCarfax" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -336,6 +337,7 @@
 	    <div class="row text-center">
 		<button id="loadMore" class="btn btn-xl">Load More</button>
 	    </div>
+	    -->
         </div>
     </section>
 
@@ -365,7 +367,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>2017 - Present</h4>
-                                    <h4 class="subheading">Lead PHP Developer <a href="https://www.305spin.com/" target="_blank">305 Spin</a></h4>
+				    <h4 class="subheading">Lead PHP Developer <!--<a href="https://www.305spin.com/" target="_blank">-->305 Spin<!--</a>--></h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">I build and manage multiple websites, applications and servers. We use Laravel, WordPress, Javascript, and other technologies to provide our clients with excellent products.</p>
@@ -579,8 +581,8 @@
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Carfax Modal -->
+    <!--
+    <!-- Carfax Modal 
     <div class="portfolio-modal modal fade" id="modalCarfax" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -594,7 +596,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Report Ordering - Carfax</h2>
                                 <p class="item-intro text-muted">Backend Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/report-ordering.jpg" alt="Report Ordering image">
@@ -613,7 +615,7 @@
         </div>
     </div>
 
-    <!-- Web Scraping Modal -->
+    <!-- Web Scraping Modal 
     <div class="portfolio-modal modal fade" id="modalWebScraping" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -627,7 +629,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Web Scraping and Deployment Automation</h2>
                                 <p class="item-intro text-muted">Full Stack Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/web-scraper.jpg" alt="Web Scraping project image">
@@ -646,7 +648,7 @@
         </div>
     </div>
 
-    <!-- This Site Modal -->
+    <!-- This Site Modal 
     <div class="portfolio-modal modal fade" id="modalThisSite" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -660,7 +662,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>This Website</h2>
                                 <p class="item-intro text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="My Portfolio Page image">
@@ -679,7 +681,7 @@
         </div>
     </div>
 
-    <!-- Ready Modal -->
+    <!-- Ready Modal 
     <div class="portfolio-modal modal fade" id="modalReadyMobile" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -693,7 +695,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Ready Mobile - Ecommerce</h2>
 				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.readymobile.com" target="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/ready_mobile.png" alt="">
@@ -712,7 +714,7 @@
         </div>
     </div>
 
-    <!-- Hotel Bothwell Modal -->
+    <!-- Hotel Bothwell Modal 
     <div class="portfolio-modal modal fade" id="modalHotelBothwell" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -726,7 +728,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Hotel Bothwell WordPress Site</h2>
 				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/hotel_bothwell.png" alt="">
@@ -745,7 +747,7 @@
         </div>
     </div>
 
-    <!-- 305 Plugin Modal -->
+    <!-- 305 Plugin Modal 
     <div class="portfolio-modal modal fade" id="modal305Plugin" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -759,7 +761,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>305 Spin WordPress Plugin</h2>
                                 <p class="item-intro text-muted">WordPress Development</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/305_spin_plugin.png" alt="">
@@ -778,7 +780,7 @@
         </div>
     </div>
 
-    <!-- Assurance  Modal -->
+    <!-- Assurance  Modal 
     <div class="portfolio-modal modal fade" id="modalAssurance" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -792,7 +794,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Assurance Wireless - Marketing Site</h2>
 				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.assurancewireless.com" target="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/assurance.png" alt="">
@@ -811,7 +813,7 @@
         </div>
     </div>
 
-    <!-- Home Ranch Modal -->
+    <!-- Home Ranch Modal 
     <div class="portfolio-modal modal fade" id="modalHomeRanch" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -825,7 +827,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>The Home Ranch WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://www.homeranch.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/homeranch.png" alt="">
@@ -844,7 +846,7 @@
         </div>
     </div>
 
-    <!-- Choctaw Pines Modal -->
+    <!-- Choctaw Pines Modal 
     <div class="portfolio-modal modal fade" id="modalChoctawPines" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -858,7 +860,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Choctaw Pines Casino WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://www.choctawpines.com" target="_blank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/choctawpines.png" alt="">
@@ -877,7 +879,7 @@
         </div>
     </div>
 
-    <!-- QEO Modal -->
+    <!-- QEO Modal 
     <div class="portfolio-modal modal fade" id="modalQeo" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -891,7 +893,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>QEO WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://www.qeo.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/qeo.png" alt="">
@@ -910,7 +912,7 @@
         </div>
     </div>
 
-    <!-- MOSBA Modal -->
+    <!-- MOSBA Modal 
     <div class="portfolio-modal modal fade" id="modalMosba" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -924,7 +926,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Missouri School Board Association WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://mosba.org" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/mosba.png" alt="">
@@ -943,7 +945,7 @@
         </div>
     </div>
 
-    <!-- SBT GRVL Modal -->
+    <!-- SBT GRVL Modal 
     <div class="portfolio-modal modal fade" id="modalSbtGrvl" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -957,7 +959,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>SBT GRVL WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://sbtgrvl.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/sbtgrvl.png" alt="">
@@ -976,7 +978,7 @@
         </div>
     </div>
 
-    <!-- LineOne Modal -->
+    <!-- LineOne Modal 
     <div class="portfolio-modal modal fade" id="modalLineOne" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -990,7 +992,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>LineOne Marketing Site</h2>
 				<p class="item-intro text-muted">Full-Stack Development - <a href="https://line.one" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/lineone.png" alt="">
@@ -1009,7 +1011,7 @@
         </div>
     </div>
 
-    <!-- Sho-Ban Casino Modal -->
+    <!-- Sho-Ban Casino Modal 
     <div class="portfolio-modal modal fade" id="modalShoBan" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1023,7 +1025,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Shoshone-Bannock Casino Hotel WordPress Site</h2>
 				<p class="item-intro text-muted">WordPress Development - <a href="https://www.shobangaming.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/forthall.png" alt="">
@@ -1042,7 +1044,7 @@
         </div>
     </div>
 
-    <!-- Airvoice Modal -->
+    <!-- Airvoice Modal 
     <div class="portfolio-modal modal fade" id="modalAirvoice" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1056,7 +1058,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
+                                <!-- Project Details Go Here 
                                 <h2>Airvoice Wireless Customer Portal</h2>
 				<p class="item-intro text-muted">Full-Stack Development - <a href="https://www.airvoicewireless.com" target="_bank">View</a></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/airvoice.png" alt="">
@@ -1074,6 +1076,7 @@
             </div>
         </div>
     </div>
+    -->
 
     <script src="{{SCRIPT}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
