@@ -29,7 +29,8 @@ $('.timeline-button .timeline-image').on('click', function(){
 });
 $('form#access-code-form').on('submit', function(event){
 	event.preventDefault();
-	$('button#access-code-submit-button').fadeIn('slow', function(){});
+	$('button#access-code-submit-button').fadeOut('slow', function(){});
+	$('.passcode-success-message, .passcode-error-message').fadeOut('slow', function(){});
 	var code = $('input[name=access-code]').val();
 	if(code && code != ''){
 		$.ajax({
