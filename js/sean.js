@@ -39,12 +39,16 @@ $('form#access-code-form').on('submit', function(event){
 			data: {passcode: code},
 			success: function(data){
 				if(data.success){
-					$('#project-grid').html(data.projects);
-					$('#project-modals').html(data.modals);
-					if($('.portfolio-item').length > 3){
-						setUpPortfolioButton();
+					if(data.projects.length){
+						$('#project-grid').html(data.projects);
+						$('#project-modals').html(data.modals);
+						if($('.portfolio-item').length > 3){
+							setUpPortfolioButton();
+						}
+						showAccessSuccessMessageHideForm();
+					}else{
+						auth_error();
 					}
-					showAccessSuccessMessageHideForm();
 				}else{
 					auth_error();
 				}
