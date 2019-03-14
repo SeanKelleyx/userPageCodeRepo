@@ -89,7 +89,9 @@ gulp.task('concat-js', function(){
 // Minify JS
 gulp.task('minify-js', ['concat-js'], function() {
     return gulp.src('js/main.js')
-        .pipe(uglify())
+        .pipe(uglify().on('error', function(e){
+					console.log(e);
+				}))
         .pipe(header(banner, { pkg: pkg }))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('js'))
@@ -131,7 +133,7 @@ gulp.task('del', function(){
 });
 
 gulp.task('copy-files-build', ['del', 'less', 'minify-css', 'minify-js', 'copy-fonts'], function(){
-    return gulp.src([".htaccess", "css/main.min.css", "fonts/**", "img/**", "js/main.min.js", "mail/contact_me.php", "vendor/**"], {base: "./"})
+    return gulp.src([".htaccess", "css/main.min.css", "fonts/**", "img/**", "js/main.min.js", "mail/contact_me.php", "vendor/**", "auth/**"], {base: "./"})
         .pipe(gulp.dest('build'));
 });
 

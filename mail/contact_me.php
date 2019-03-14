@@ -21,8 +21,12 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 // Create the email and send the message
 $to = 's.kelley27@gmail.com';
 $email_subject = "Portfolio Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$email_body_html = '<h4>You have received a new message from you website contact form.</h2><p>Here are the details:</p><ul><li>Name:  '.$name.'</li><li>Email: '.$email_address.'</li><li>Phone: '.$phone.'</li></ul><p><u>Message:</u> '.$message.'</p>'; 
+$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nIP: " . $_SERVER['REMOTE_ADDR'] . "\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$email_body_html = '<h4>You have received a new message from you website contact form.</h2><p>Here are the details:</p><ul><li>IP: ' . $_SERVER['REMOTE_ADDR'] . '<li>Name:  '.$name.'</li><li>Email: '.$email_address.'</li><li>Phone: '.$phone.'</li></ul><p><u>Message:</u> '.$message.'</p>'; 
+if(isset($_POST['company'])){
+	$email_body .= "\nCompany: " . $_POST['company'];
+	$email_body_html .= "<br>Company: " . $_POST['company'];
+}
 $body = [
     'FromEmail' => "noreply@seankelley.tech",
     'FromName' => "Resume Website",

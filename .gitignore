@@ -9,5 +9,5 @@ fonts
 build
 ftp-creds.js
 *.swp
-
+.env
 /vendor/

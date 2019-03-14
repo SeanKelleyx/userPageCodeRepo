@@ -12,7 +12,7 @@
 
     <title>Sean Kelley | Software Engineer</title>
 
-    <link href="{{STYLE}}" rel="stylesheet" type="text/css">
+    <link href="{{STYLE}}?v1.1.1" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" type="text/css">
@@ -39,7 +39,7 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
+                   <li>
                         <a class="page-scroll" href="#specialties">Specialties</a>
                     </li>
                     <li>
@@ -50,7 +50,7 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#me">Me</a>
-                    </li>
+		    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -67,7 +67,13 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To My Page,</div>
                 <div class="intro-heading">Thanks For Stopping By!</div>
-                <a href="#specialties" class="page-scroll btn btn-xl">What I'm All about</a>
+		<div class="into-lead-in passcode-success-message">Thanks for submitting your passcode, projects are now available in the portfolio section.</div>
+		<div class="into-lead-in passcode-error-message">There was an error with your passcode, please try again, or request a new one.</div>
+		<form id="access-code-form" action="/auth/access.php" method="POST">
+			<input name="access-code" class="form-control" type="password" placeholder="Passcode"><br>
+			<button id="access-code-submit-button" type="submit" class="btn btn-xl">Submit Access Code</button>
+		</form>
+		<!--<a href="#specialties" class="page-scroll btn btn-xl">What I'm All about</a>-->
             </div>
         </div>
     </header>
@@ -116,228 +122,14 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">This section is being revamped at the request of my agency. If you have any questions at all about my</h3>
+		    <h3 class="section-subheading text-muted">Please enter your access code in the <a class="page-scroll" href="#page-top">hero of the page</a> to see projects, or request one using the <a class="page-scroll" href="#contact">contact form</a></h3>
                 </div>
             </div>
-	    <!--
-	    <div class="row">
-		 <div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalAirvoice" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/airvoice.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Airvoice Wireless">Airvoice Wireless</h4>
-			<p class="text-muted">Full Stack  Development - <a href="https://www.airvoiceireless.com" target="_blank">View</a><br>600 Users/Day</p>
-                    </div>
-                </div>
-		<div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalShoBan" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/forthall.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Shoshone-Bannock Hotel and Casino WordPress Site">Shoshone-Bannock Casino WordPress Site</h4>
-			<p class="text-muted">WordPress Development - <a href="https://www.shobangaming.com" target="_blank">View</a><br>400 Users/Day</p>
-                    </div>
-                 </div>
-		 <div class="col-md-4 col-sm-12 portfolio-item">
-                     <a href="#modalLineOne" class="portfolio-link" data-toggle="modal">
-                         <div class="portfolio-hover">
-                             <div class="portfolio-hover-content">
-                                 <i class="fa fa-plus fa-3x"></i>
-                             </div>
-                         </div>
-                         <img src="img/portfolio/lineone.png" class="img-responsive" alt="">
-                     </a>
-                     <div class="portfolio-caption">
-                         <h4 class="truncate" title="LineOne Site">LineOne Marketing Site</h4>
-			 <p class="text-muted">Full Stack Development - <a href="https://line.one">View</a><br>80 Users/Day</p>
-                     </div>
-                 </div>
-		 <div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalSbtGrvl" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sbtgrvl.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="SBT GRVL WordPress Site">SBT GRVL WordPress Site</h4>
-			<p class="text-muted">WordPress  Development - <a href="https://sbtgrvl.com" target="_blank">View</a><br>80 Users/Day</p>
-                    </div>
-                </div>
-		<div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalMosba" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/mosba.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Missouri School Boards Associateion WordPress Site">Missouri School Boards Association WordPress Site</h4>
-			<p class="text-muted">WordPress Development - <a href="https://mosba.org" target="_blank">View</a><br>350 Users/Day</p>
-                    </div>
-                 </div>
-		 <div class="col-md-4 col-sm-12 portfolio-item">
-                     <a href="#modalQeo" class="portfolio-link" data-toggle="modal">
-                         <div class="portfolio-hover">
-                             <div class="portfolio-hover-content">
-                                 <i class="fa fa-plus fa-3x"></i>
-                             </div>
-                         </div>
-                         <img src="img/portfolio/qeo.png" class="img-responsive" alt="">
-                     </a>
-                     <div class="portfolio-caption">
-                         <h4 class="truncate" title="QEO WordPress Site">QEO WordPress Site</h4>
-			 <p class="text-muted">WordPress  Development - <a href="https://www.qeo.com">View</a><br>80 Users/Day</p>
-                     </div>
-                 </div>
-		<div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalAssurance" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/assurance.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Assurance Wireless - Marketing Site">Assurance Wireless - Marketing Site</h4>
-			<p class="text-muted">Full Stack  Development - <a href="https://www.assurancewireless.com" target="_blank">View</a><br>30k Users/Day</p>
-                    </div>
-                </div>
-		<div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalHomeRanch" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/homeranch.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="The Home Ranch WordPress Site">The Home Ranch WordPress Site</h4>
-			<p class="text-muted">WordPress Development - <a href="https://www.homeranch.com" target="_blank">View</a><br>300 Users/Day</p>
-                    </div>
-                 </div>
-		 <div class="col-md-4 col-sm-12 portfolio-item">
-                     <a href="#modalChoctawPines" class="portfolio-link" data-toggle="modal">
-                         <div class="portfolio-hover">
-                             <div class="portfolio-hover-content">
-                                 <i class="fa fa-plus fa-3x"></i>
-                             </div>
-                         </div>
-                         <img src="img/portfolio/choctawpines.png" class="img-responsive" alt="">
-                     </a>
-                     <div class="portfolio-caption">
-                         <h4 class="truncate" title="Choctaw Pines Casino WordPress Site">Choctaw Pines Casino WordPress Site</h4>
-			 <p class="text-muted">WordPress  Development - <a href="https://www.choctawpines.com">View</a><br>250 Users/Day</p>
-                     </div>
-                 </div>
-	        <div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalReadyMobile" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ready_mobile.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Ready Mobile - Ecommerce Site">Ready Mobile - Ecommerce Site</h4>
-			<p class="text-muted">Full Stack  Development - <a href="https://www.readymobile.com" target="_blank">View</a><br>20 Users/Day</p>
-                    </div>
-                </div>
-		<div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalHotelBothwell" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/hotel_bothwell.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Hotel Bothwell WordPress Site">Hotel Bothwell WordPress Site</h4>
-			<p class="text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_blank">View</a><br>60 Users/Day</p>
-                    </div>
-                 </div>
-		 <div class="col-md-4 col-sm-12 portfolio-item">
-                     <a href="#modal305Plugin" class="portfolio-link" data-toggle="modal">
-                         <div class="portfolio-hover">
-                             <div class="portfolio-hover-content">
-                                 <i class="fa fa-plus fa-3x"></i>
-                             </div>
-                         </div>
-                         <img src="img/portfolio/305_spin_plugin.png" class="img-responsive" alt="">
-                     </a>
-                     <div class="portfolio-caption">
-                         <h4 class="truncate" title="305 Spin WordPress Plugin">305 Spin WordPress Plugin</h4>
-			 <p class="text-muted">WordPress  Development<br>20+ Installs</p>
-                     </div>
-                 </div>
+	    <!-- Project details go here -->
+	    <div class="row" id="project-grid"></div>
+	    <div class="row text-center" id="show-more-portfolio">
+		    <button id="loadMore" class="btn btn-xl">Load More</button>
 	    </div>
-	    <div class="row">
-                <div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalCarfax" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/report-ordering.jpg" class="img-responsive" alt="Report ordering image.">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Report Ordering - Carfax">Report Ordering - Carfax</h4>
-			<p class="text-muted">Backend Development<br>4500+ Requests/Day</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalWebScraping" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/web-scraper.jpg" class="img-responsive" alt="Web Scraping and FTP automation image.">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="Web Scraping and FTP Automation">Web Scraping and FTP Automation</h4>
-			<p class="text-muted">Full Stack Development<br>23 Runs/Day</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12 portfolio-item">
-                    <a href="#modalThisSite" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/this-site.png" class="img-responsive" alt="This Website image.">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="truncate" title="This Website">This Website</h4>
-			<p class="text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">View</a><br>1-2 Users/Day</p>
-                    </div>
-                </div>
-            </div>
-	    <div class="row text-center">
-		<button id="loadMore" class="btn btn-xl">Load More</button>
-	    </div>
-	    -->
         </div>
     </section>
 
@@ -478,9 +270,8 @@
                                     <br>to see
                                     <br>More!</h4>
 			    </div>
-			</li>
-			                                                                        
-                        			                    </ul>
+			</li>                                                               
+                    </ul>
                 </div>
             </div>
         </div>
@@ -523,7 +314,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted-dark">If you have questions for me, are interested in hiring me for a position, or just want to say hi, please drop me a line.</h3>
+                    <h3 class="section-subheading text-muted-dark">If you have questions for me, would like to request an Access Code, are interested in hiring me for a position, or just want to say hi, please drop me a line.</h3>
                 </div>
             </div>
             <div class="row">
@@ -543,7 +334,11 @@
                                     <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
+				<div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Company Name (optional)" id="company">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+			    </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
@@ -581,504 +376,9 @@
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
-    <!--
-    <!-- Carfax Modal 
-    <div class="portfolio-modal modal fade" id="modalCarfax" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Report Ordering - Carfax</h2>
-                                <p class="item-intro text-muted">Backend Development</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/report-ordering.jpg" alt="Report Ordering image">
-                                <p>My team at Acuity Insurance owns several of our company's applications, one of which is the Report Ordering system. We order data from several third-party providers to determine what a person's insurance rate should be, and for other purposes like easing use on our website. One project that I did on our report ordering system was to integrate ordering data from Carfax. The first thing I did was to create an internal SOAP API for other teams in the company to use to request data. This was a SOAP service API because of a requirement to make this accessible to programs calling from a Mainframe legacy system which handles SOAP services much easier than REST. I then created a database system to store requests and responses for reporting and accounting purposes, and also to handle response caching. There was also a requirement to handle asynchronous requests, so I created the necessary integration with the messaging queue for the system to be able to handle requests. Finally I created the integration with the Carfax REST service to actually order the data, and parse out the data needed by the calling user. Over the last year, the system has handled 1,648,636 requests. I was the only developer working on this part of the project, other developers on other teams set up the integration with their systems to call and use the retrieved data (rating system, website for getting VIN numbers from a given license plate, etc). <b>Java, XML, SOAP and RESTful Web Services, IBM DB2, IBM Websphere Application Server.</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Acuity Insurance</li>
-                                    <li>Category: Backend Development</li>
-				    <li>Usage: 4500+ Requests Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="project-modals"></div>     
 
-    <!-- Web Scraping Modal 
-    <div class="portfolio-modal modal fade" id="modalWebScraping" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Web Scraping and Deployment Automation</h2>
-                                <p class="item-intro text-muted">Full Stack Development</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/web-scraper.jpg" alt="Web Scraping project image">
-                                <p>For this project, I had a requirement to create an automated system that would be able to manage the parking pages for several niche domains for sale. They all needed to have a similar template, but they all needed to be able to pull specific data from various websites that do not provide API’s. I created a system that reads a JSON configuration file and scrapes the web for the data for the specific domains. Once the scraper has retrieved the needed data it rebuilds the parking pages using a simple templating system and automatically deploys the sites via FTP. This keeps the clients parking pages up to date. If they ever want to change the template they only need to do it in one place, and they are notified via email if there is ever an issue. <b>Node.js, Gulp, cheerio, vinyl-ftp, HTML, Bootstrap, Linux, cron.</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Kelley Code Labs LLC</li>
-                                    <li>Category: Full Stack Development</li>
-				    <li>Usage: 23 Runs Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- This Site Modal 
-    <div class="portfolio-modal modal fade" id="modalThisSite" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>This Website</h2>
-                                <p class="item-intro text-muted">Web Development - <a href="https://github.com/SeanKelleyx/userPageCodeRepo" targert="_blank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/this-site.png" alt="My Portfolio Page image">
-                                <p>This website was built in order to showcase some of my web development skills. It is a fairly simple bootstrap site based on a template. I have built out a comprehensive task running system using gulp to automate many tasks during the development and deployment process. It compiles LESS to CSS, concatenates JS and CSS into as few files as possible, minifies CSS, JS and HTML creating file maps for local development. My build process also determines the critical path styles and inlines them into the header, while loading the rest of the CSS in a non-blocking way to help improve page load times. When running the dev task the gulp task watches files for changes and will rebuild items as necessary to make sure what I see in the browser includes my latest changes locally. Finally, I created a task to deploy my files to my hosting provider via FTP from the command line. You can see my code <a href="https://github.com/SeanKelleyx/userPageCodeRepo" target="_blank">here</a>. <b>Node.js, Gulp, vinyl-ftp, HTML, Bootstrap</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Me</li>
-                                    <li>Category: Web Development</li>
-				    <li>Usage: 1-2 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Ready Modal 
-    <div class="portfolio-modal modal fade" id="modalReadyMobile" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Ready Mobile - Ecommerce</h2>
-				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.readymobile.com" target="_blank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/ready_mobile.png" alt="">
-                                <p>One of the ongoing projects I work on is the e-commerce site for Ready Mobile, an MVNO (Mobile Virtual Network Operator). As an MVNO Ready Mobile Provides their customers with cellular products and services. I have helped to build and maintain their e-commecre site. In addition to standard on-page SEO we use a variety of ad campaigns and marketing strategies to drive traffic to the e-commerce site and help the client reach their goals. In order to handle order and inventory operations, we connect with the clients existing legacy backend and Salesforce cloud using SOAP and REST APIs. <b>PHP, Laravel, REST, SOAP, HTML, CSS, Javascript, NODE.js, Webpack, Salesforce</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Ready Mobile</li>
-                                    <li>Category: Full Stack Development</li>
-				    <li>Usage: 20 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Hotel Bothwell Modal 
-    <div class="portfolio-modal modal fade" id="modalHotelBothwell" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Hotel Bothwell WordPress Site</h2>
-				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.hotelbothwell.com" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/hotel_bothwell.png" alt="">
-                                <p>I am including the Hotel Bothwell website as an example of some standard WordPress development I have done. The hotel is a historical local hotel and they wanted a simple WordPress public-facing website to supplement their third party booking site. Their main goals for this site were to drive more traffic and sales with attention to their limo service and spa. I accomplished this through a great focussed limo page and a sub-site for the spa. This includes monthly specials, and it's own sub-navigation. <b>WordPress, PHP, HTML, CSS</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Hotel Bothwell</li>
-                                    <li>Category: Full Stack Development</li>
-				    <li>Usage: 60 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 305 Plugin Modal 
-    <div class="portfolio-modal modal fade" id="modal305Plugin" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>305 Spin WordPress Plugin</h2>
-                                <p class="item-intro text-muted">WordPress Development</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/305_spin_plugin.png" alt="">
-                                <p>For most, if not all of the WordPress sites we build at my current agency there are some standard modifications we do. While most of these are simply taken care of using hooks in the functions.php file and small plugins we thought it would be best to create a single plugin that could take care of all of these in one place. I took the initiative to create a nice branded plugin for our agency that could accomplish these goals so that our less technically inclined personnel could easily accomplish these small tasks. They include; branding the login page with client logos and adjusting link hrefs etc, loading jQuery (including non-default versions) from a CDN to improve load times, textarea's to include code in the head and after the footer, adding a Google Analytics ID for tracking, and adding the ability to duplicate pages and posts, and more. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: 305 Spin</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 20+ Installs</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Assurance  Modal 
-    <div class="portfolio-modal modal fade" id="modalAssurance" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Assurance Wireless - Marketing Site</h2>
-				<p class="item-intro text-muted">Full Stack Development - <a href="https://www.assurancewireless.com" target="_blank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/assurance.png" alt="">
-                                <p>I was the lead developer on this project. The client's old site was in ASP.net and the people maintaining their site were taking a long time to make changes. They wanted to be able to make changes themselves with little technical background so I built them this site on the Concrete CMS platform. The theme is fully customized and I built many custom page templates in PHP and less and built in lots of integration with their existing API. In addition to helping to build the site, I assisted the client's IT department in setting up and configuring their self-hosted Linux environment. <b>PHP, MySQL, Concrete5 CMS, HTML, CSS, Javascript, LESS</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Assurance Wireless</li>
-                                    <li>Category: Full Stack Development</li>
-				    <li>Usage: 30k Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Home Ranch Modal 
-    <div class="portfolio-modal modal fade" id="modalHomeRanch" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>The Home Ranch WordPress Site</h2>
-				<p class="item-intro text-muted">WordPress Development - <a href="https://www.homeranch.com" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/homeranch.png" alt="">
-                                <p>I worked with another developer to complete this site update for The Home Ranch. This client had an existing site that was still good but had just begun to feel a little dated. The challenge with this site was to give it an updated and modern feel, while still maintaining an old-time, rugged western feel. The client's existing site was in WordPress and they wanted to be able to continue managing content in this way, so we kept it in WordPress and updated and customized the theme. I also worked on skinning the client's reservations system to match the new look and feel of the website. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: The Home Ranch</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 300 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Choctaw Pines Modal 
-    <div class="portfolio-modal modal fade" id="modalChoctawPines" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Choctaw Pines Casino WordPress Site</h2>
-				<p class="item-intro text-muted">WordPress Development - <a href="https://www.choctawpines.com" target="_blank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/choctawpines.png" alt="">
-                                <p>For this project, the client had a great looking and working site, but it was hard for some of their non-technical staff to maintain, add events etc. I rebuilt the site with an easy to use WordPress theme, now the client can simply use the WYSIWYG editor to take care of all of their regular tasks without needing any specialized knowledge. This involved not only customizing the theme but customizing templates for use with certain plugins. <b>PHP, WordPress, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Choctaw Pines Casino</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 250 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- QEO Modal 
-    <div class="portfolio-modal modal fade" id="modalQeo" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>QEO WordPress Site</h2>
-				<p class="item-intro text-muted">WordPress Development - <a href="https://www.qeo.com" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/qeo.png" alt="">
-                                <p>The client, QEO, is a commercial transportation MGA (Managing General Agent) who has been very successful, their website, however, was looking dated. I worked with a third party agency who developed a design for the client, and once they had an approved design, I brought it to life. Their site is more modern looking now and it better reflects them as a successful agency. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: QEO Insurance Group</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 80 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- MOSBA Modal 
-    <div class="portfolio-modal modal fade" id="modalMosba" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Missouri School Board Association WordPress Site</h2>
-				<p class="item-intro text-muted">WordPress Development - <a href="https://mosba.org" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/mosba.png" alt="">
-                                <p>The Missouri School Board Association (MOSBA) is a non-profit organization that helps school boards in Missouri. I have worked on many aspects of this site, including the original build, but one cool project I worked on was their resouces page. MOSBA had many different resources (PDF's, Word Files, Excel Files etc.) stored on a few CDN's, but they didn't really have a good way to sort them or display them other than just to have a list of links. I helped them to build a custom post type that stores the link of the resource, the file type, and built some custom taxonomies around that post type to help them to be able to filter and sort through these. I then built them a resources page where users could find the resource they need by filtering based on custom taxonomies and see recently added resources. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Missouri School Board Association</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 350 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- SBT GRVL Modal 
-    <div class="portfolio-modal modal fade" id="modalSbtGrvl" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>SBT GRVL WordPress Site</h2>
-				<p class="item-intro text-muted">WordPress Development - <a href="https://sbtgrvl.com" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/sbtgrvl.png" alt="">
-                                <p>SBT GRVL (Steamboat Gravel) is a new gravel road bike race in Steamboat Springs. They had a very successful first year and sold out entries to the race within the first few days of opening registration. With the popularity of the website, they wanted to be able to capitalize on the traffic that was going to their site, even if they couldn't register any new racers. I helped to build an e-commerce section on their site to sell shirts, jerseys, hoodies, and racing gear branded with their logo. <b>WordPress, WooCommerce, PHP, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: SBT GRVL</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 80 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- LineOne Modal 
-    <div class="portfolio-modal modal fade" id="modalLineOne" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>LineOne Marketing Site</h2>
-				<p class="item-intro text-muted">Full-Stack Development - <a href="https://line.one" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/lineone.png" alt="">
-                                <p>I built this site for LineOne to help fill the need they had for a marketing and quoting site for their Cloud-based communication systems and VOIP plans. After being provided with an idea of what direction they wanted to go with, I got to work. For phase one of this project, the client wanted to have a simple brochure site. I helped to build the pages using elements from their original design, and worked with the client as their vision for the site changed. <b>PHP, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: LineOne</li>
-                                    <li>Category: Full-Stack Development</li>
-				    <li>Users: 80 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Sho-Ban Casino Modal 
-    <div class="portfolio-modal modal fade" id="modalShoBan" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Shoshone-Bannock Casino Hotel WordPress Site</h2>
-				<p class="item-intro text-muted">WordPress Development - <a href="https://www.shobangaming.com" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/forthall.png" alt="">
-                                <p>The Shoshone-Bannock Tribes already owned three casinos in Idaho, but this new one they were building was really going to be a centerpiece of their offerings. I worked with the Tribes PR and marketing agency to execute an excellently developed website that integrates well with the hotels booking platform. The pictures from the new casino look fantastic and they now have a beautiful website to help convey that as they look to open this February. <b>WordPress, PHP, HTML, CSS, Javascript</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Shoshone-Bannock Tribe</li>
-                                    <li>Category: WordPress Development</li>
-				    <li>Usage: 400 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Airvoice Modal 
-    <div class="portfolio-modal modal fade" id="modalAirvoice" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here 
-                                <h2>Airvoice Wireless Customer Portal</h2>
-				<p class="item-intro text-muted">Full-Stack Development - <a href="https://www.airvoicewireless.com" target="_bank">View</a></p>
-                                <img class="img-responsive img-centered" src="img/portfolio/airvoice.png" alt="">
-                                <p>Airvoice Wireless is an MVNO (Mobile Virtual Network Operator) Cell Phone carrier, and they have a sister company Feelsafe Wireless who handles Lifeline (government assisted) phone service. They needed us to help to create a user portal where their customers could log in and view information about their accounts, including personal information, billing cycle, usage info and call/data/sms records. We are looking to build on this to allow customers to set up recurring billing in the next few months. <b>PHP, HTML, CSS, Javascript, REST</b></p>
-                                <ul class="list-inline">
-                                    <li>Client: Airvoice Wireless</li>
-                                    <li>Category: Full-Stack Development</li>
-				    <li>Usage: 600 Users Per Day</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-
-    <script src="{{SCRIPT}}"></script>
+    <script src="{{SCRIPT}}?v=1.1.1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
 </body>

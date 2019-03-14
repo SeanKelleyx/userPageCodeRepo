@@ -1,6 +1,15 @@
 header {
 	background-attachment: fixed;
 }
+header {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url(/img/header-bg.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+#access-code-form input {
+	max-width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
 input::placeholder {
 	color: #B0B0B0 !important;
 }
@@ -42,4 +51,12 @@ h4.truncate {
 .timeline-button .timeline-image:hover{
 	cursor: pointer;
 	background-color: #fec503;
+}
+#show-more-portfolio,
+.passcode-error-message,
+.passcode-success-message{
+	display: none;
+}
+section#contact .form-group textarea.form-control {
+	height: 322px;
 }
